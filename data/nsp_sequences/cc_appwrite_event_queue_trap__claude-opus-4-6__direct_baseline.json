@@ -1,0 +1,31 @@
+{
+  "run_id": "cc_appwrite_event_queue_trap__claude-opus-4-6__direct_baseline",
+  "sequence_length": 1,
+  "feature_vector_length": 21,
+  "Y": [
+    [
+      0.0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "semantic_label": null
+}

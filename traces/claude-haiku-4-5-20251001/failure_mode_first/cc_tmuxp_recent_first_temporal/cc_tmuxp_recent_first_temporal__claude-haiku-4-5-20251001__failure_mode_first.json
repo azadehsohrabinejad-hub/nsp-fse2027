@@ -1,0 +1,120 @@
+{
+  "schema": {
+    "name": "NSP Trace",
+    "version": "1.0.0"
+  },
+  "run": {
+    "run_id": "cc_tmuxp_recent_first_temporal__claude-haiku-4-5-20251001__failure_mode_first",
+    "seed": 1,
+    "status": "failed",
+    "actual_rounds": 2
+  },
+  "task": {
+    "task_id": "cc_tmuxp_recent_first_temporal",
+    "benchmark": "CCBench"
+  },
+  "model": {
+    "model_name": "claude-haiku-4-5-20251001"
+  },
+  "strategy": {
+    "strategy_id": "failure_mode_first"
+  },
+  "environment": {
+    "repository_state_hash": "unknown_local_metadata_only"
+  },
+  "initial_state": {
+    "tests": {
+      "status": "unknown",
+      "pass_rate": 0.0
+    }
+  },
+  "rounds": [
+    {
+      "round_index": 1,
+      "context": {
+        "files_retrieved": [],
+        "context_tokens": 0
+      },
+      "prompt": {
+        "input_tokens": 0,
+        "rendered_prompt_path": null
+      },
+      "response": {
+        "output_tokens": 0,
+        "parse_status": "unknown"
+      },
+      "edits": {
+        "statistics": {
+          "applied_edit_count": 0,
+          "files_touched": 0
+        }
+      },
+      "execution": {
+        "tests": {
+          "pass_rate": 0.0,
+          "failing_tests": []
+        }
+      },
+      "observation": {
+        "test_features": {
+          "pass_rate": 0.0,
+          "delta_pass_rate": 0.0
+        },
+        "behavior_features": {
+          "invalid_patch": false,
+          "test_regression": false
+        }
+      }
+    },
+    {
+      "round_index": 2,
+      "context": {
+        "files_retrieved": [],
+        "context_tokens": 0
+      },
+      "prompt": {
+        "input_tokens": 0,
+        "rendered_prompt_path": null
+      },
+      "response": {
+        "output_tokens": 0,
+        "parse_status": "unknown"
+      },
+      "edits": {
+        "statistics": {
+          "applied_edit_count": 0,
+          "files_touched": 0
+        }
+      },
+      "execution": {
+        "tests": {
+          "pass_rate": 0.0,
+          "failing_tests": []
+        }
+      },
+      "observation": {
+        "test_features": {
+          "pass_rate": 0.0,
+          "delta_pass_rate": 0.0
+        },
+        "behavior_features": {
+          "invalid_patch": false,
+          "test_regression": false
+        }
+      }
+    }
+  ],
+  "final_state": {
+    "all_tests_passed": false,
+    "final_pass_rate": 0.0
+  },
+  "semantic_evaluation": {
+    "available": false,
+    "semantic_score": null,
+    "drift_detected": false
+  },
+  "integrity": {
+    "validation_status": "valid_metadata_only",
+    "validation_errors": []
+  }
+}
