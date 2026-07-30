@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from model import NSPModel
+from src.nsp.model import NSPModel
 
 class NSPFilter(nn.Module):
     """

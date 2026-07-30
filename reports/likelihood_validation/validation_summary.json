@@ -1,0 +1,34 @@
+{
+    "synthetic": {
+        "data_type": "synthetic",
+        "total_epochs": 50,
+        "initial_log_likelihood": -296.17162109375,
+        "final_log_likelihood": -215.363828125,
+        "best_log_likelihood": -215.363828125,
+        "best_epoch": 50,
+        "nan_inf_count": 0,
+        "positive_epoch_change_ratio": 1.0,
+        "criteria_passed": {
+            "LL_final > LL_initial": true,
+            "Best_LL > Initial_LL": true,
+            "NaN_Inf_count_zero": true,
+            "Positive_ratio >= 0.60": true
+        }
+    },
+    "project": {
+        "data_type": "project",
+        "total_epochs": 50,
+        "initial_log_likelihood": -35.71422020164696,
+        "final_log_likelihood": 9.078676790804476,
+        "best_log_likelihood": 9.078676790804476,
+        "best_epoch": 50,
+        "nan_inf_count": 0,
+        "positive_epoch_change_ratio": 1.0,
+        "criteria_passed": {
+            "LL_final > LL_initial": true,
+            "Best_LL > Initial_LL": true,
+            "NaN_Inf_count_zero": true,
+            "Positive_ratio >= 0.60": true
+        }
+    }
+}

@@ -2,8 +2,8 @@ import torch
 import torch.optim as optim
 import json
 import os
-from model import NSPModel
-from filter import NSPFilter
+from src.nsp.model import NSPModel
+from src.nsp.filter import NSPFilter
 
 # 1. Load all synthetic sequences
 synth_dir = r"D:\raz\razieh\data\nsp_sequences"
