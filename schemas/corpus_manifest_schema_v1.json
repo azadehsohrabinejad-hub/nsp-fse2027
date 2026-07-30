@@ -1,0 +1,9 @@
+{
+  "manifest_schema_version": "1.0",
+  "description": "Canonical Corpus Manifest for NSP Paper 1",
+  "required_columns": [
+    "run_id", "task_id", "model", "strategy", "canonical_status",
+    "setup_status", "execution_status", "num_rounds", "trace_path",
+    "trace_exists", "manifest_schema_version"
+  ]
+}

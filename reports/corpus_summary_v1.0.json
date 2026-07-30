@@ -1,0 +1,25 @@
+{
+    "manifest_version": "1.0",
+    "manifest_schema_version": "1.0",
+    "total_discovered_runs": 1184,
+    "canonical_runs": 1054,
+    "excluded_runs": 130,
+    "ablation_runs": 0,
+    "completeness_available": 480,
+    "models": {
+        "claude-haiku-4-5-20251001": 296,
+        "claude-opus-4-6": 296,
+        "gpt-4.1-mini": 296,
+        "gpt-4.1-nano": 296
+    },
+    "strategies": {
+        "contract_first": 148,
+        "direct_baseline": 148,
+        "failure_mode_first": 148,
+        "multi_view": 148,
+        "pattern_skeleton": 148,
+        "role_decomposed": 148,
+        "semantic_diff": 148,
+        "simulation_trace": 148
+    }
+}
