@@ -6,6 +6,7 @@ class NSPFilter(nn.Module):
     """
     Algorithm 2: NSP-FILTER (Kalman Filter implementation)
     Estimates hidden states z_t given observations y_t.
+    Includes numerical stability improvements (Joseph form, symmetrization, jitter).
     """
     def __init__(self, model: NSPModel):
         super(NSPFilter, self).__init__()
@@ -31,11 +32,13 @@ class NSPFilter(nn.Module):
         
         estimated_states = []
         log_likelihoods = []
+        I = torch.eye(state_dim, dtype=Y.dtype)
         
         for t in range(T):
             # --- Predict Step ---
             z_pred = torch.matmul(A, z)
             P_pred = torch.matmul(torch.matmul(A, P), A.t()) + Q
+            P_pred = 0.5 * (P_pred + P_pred.t()) # Symmetrize
             
             # --- Update Step ---
             y_pred = torch.matmul(C, z_pred)
@@ -46,22 +49,31 @@ class NSPFilter(nn.Module):
             
             # Innovation covariance
             S = torch.matmul(torch.matmul(C, P_pred), C.t()) + R
+            S = 0.5 * (S + S.t()) # Symmetrize
+            
+            # Add jitter for numerical stability
+            S = S + 1e-6 * torch.eye(self.model.obs_dim, dtype=Y.dtype)
             
             # Kalman Gain
             # We want to solve S * K^T = C * P_pred to get K^T, then transpose it
             K_t = torch.linalg.solve(S, torch.matmul(C, P_pred))
             K = K_t.t()
             
-            # Updated state and covariance
+            # Updated state
             z = z_pred + torch.matmul(K, residual)
-            P = P_pred - torch.matmul(torch.matmul(K, C), P_pred)
+            
+            # Joseph form for covariance update (Numerically stable)
+            I_KC = I - torch.matmul(K, C)
+            P = torch.matmul(torch.matmul(I_KC, P_pred), I_KC.t()) + torch.matmul(torch.matmul(K, R), K.t())
+            P = 0.5 * (P + P.t()) # Symmetrize
             
             estimated_states.append(z)
             
             # Calculate log-likelihood for EM algorithm later
-            log_det_S = torch.logdet(S)
+            # Using slogdet for robust log-determinant calculation
+            sign, log_det_S = torch.slogdet(S)
             mahalanobis = torch.matmul(residual, torch.linalg.solve(S, residual))
-            log_likelihood = -0.5 * (log_det_S + mahalanobis + self.model.obs_dim * torch.log(torch.tensor(2 * torch.pi)))
+            log_likelihood = -0.5 * (log_det_S + mahalanobis + self.model.obs_dim * torch.log(torch.tensor(2 * torch.pi, dtype=Y.dtype)))
             log_likelihoods.append(log_likelihood)
             
         # Stack states to shape (T, state_dim)
@@ -78,12 +90,15 @@ if __name__ == "__main__":
     import json
     import os
     synth_file = r"D:\raz\razieh\data\synthetic_sequences\synthetic_run_0.json"
+    if not os.path.exists(synth_file):
+        print("Synthetic data not found. Please run generate_synthetic.py first.")
+        exit()
+        
     with open(synth_file, 'r') as f:
         data = json.load(f)
     Y = torch.tensor(data["Y"], dtype=torch.float32)
     
     # 2. Initialize Model and Filter
-    # Note: The model parameters (A, C) are random right now, not trained.
     model = NSPModel(state_dim=2, obs_dim=21)
     nsp_filter = NSPFilter(model)
     

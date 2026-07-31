@@ -1,0 +1,57 @@
+{
+    "synthetic": [
+        {
+            "seed": 1,
+            "initial_train_ll": -298.80078125,
+            "final_train_ll": -216.10830078125,
+            "best_val_ll": -215.6798583984375,
+            "param_recovery": {
+                "A_error": 0.2914182245731354,
+                "C_error": 4.111362457275391
+            }
+        },
+        {
+            "seed": 2,
+            "initial_train_ll": -298.78486328125,
+            "final_train_ll": -215.750927734375,
+            "best_val_ll": -215.9780029296875,
+            "param_recovery": {
+                "A_error": 0.04540064558386803,
+                "C_error": 3.927030086517334
+            }
+        },
+        {
+            "seed": 3,
+            "initial_train_ll": -297.1640869140625,
+            "final_train_ll": -215.8998779296875,
+            "best_val_ll": -215.976904296875,
+            "param_recovery": {
+                "A_error": 0.3044935464859009,
+                "C_error": 3.84071946144104
+            }
+        }
+    ],
+    "project": [
+        {
+            "seed": 1,
+            "initial_train_ll": -35.465252111932415,
+            "final_train_ll": -9.086457233368533,
+            "best_val_ll": -8.364945938818565,
+            "param_recovery": {}
+        },
+        {
+            "seed": 2,
+            "initial_train_ll": -35.48775326689546,
+            "final_train_ll": -9.210004248614045,
+            "best_val_ll": -8.504661334717827,
+            "param_recovery": {}
+        },
+        {
+            "seed": 3,
+            "initial_train_ll": -35.493061972016896,
+            "final_train_ll": -9.247706573389651,
+            "best_val_ll": -8.56117422369462,
+            "param_recovery": {}
+        }
+    ]
+}
