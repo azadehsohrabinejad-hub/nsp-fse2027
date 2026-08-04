@@ -1183,3 +1183,5 @@ cc_tmuxp_recent_first_temporal__gpt-4.1-nano__simulation_trace.json,cc_tmuxp_rec
 cc_tmuxp_stop_home_trap__gpt-4.1-nano__simulation_trace.json,cc_tmuxp_stop_home_trap__gpt-4.1-nano__simulation_trace,True,None
 cc_tmuxp_yaml_precedence_trap__gpt-4.1-nano__simulation_trace.json,cc_tmuxp_yaml_precedence_trap__gpt-4.1-nano__simulation_trace,True,None
 cc_tmuxp_yaml_skip_shadow_v2__gpt-4.1-nano__simulation_trace.json,cc_tmuxp_yaml_skip_shadow_v2__gpt-4.1-nano__simulation_trace,True,None
+trace.json,nsp_smoke_test_001__mock-llm__direct_baseline__seed_001,True,None
+round_001.json,,False,Missing run_id; Missing top-level field: schema; Missing top-level field: run; Missing top-level field: task; Missing top-level field: model; Missing top-level field: strategy; Missing top-level field: rounds; Missing top-level field: final_state
