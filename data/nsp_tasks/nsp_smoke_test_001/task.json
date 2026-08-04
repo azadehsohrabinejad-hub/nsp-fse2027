@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "task_id": "nsp_smoke_test_001",
+  "benchmark": "NSP-Smoke",
+  "language": "python",
+  "description": "Fix the add function in calculator.py to correctly add two numbers.",
+  "workspace": "workspace",
+  "target_files": [
+    "src/calculator.py"
+  ],
+  "allowed_files": [
+    "src/calculator.py"
+  ],
+  "setup_commands": [],
+  "test_commands": [
+    "python -m pytest tests/test_calculator.py -q"
+  ],
+  "timeout_seconds": 60,
+  "max_rounds": 3,
+  "mutation_patch": "mutation.patch",
+  "ground_truth_patch": "ground_truth.patch"
+}

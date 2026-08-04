@@ -1,0 +1,11 @@
+{
+  "plan": "The add function multiplies its arguments instead of adding them.",
+  "edits": [
+    {
+      "file": "src/calculator.py",
+      "operation": "replace",
+      "old_string": "return a * b",
+      "new_string": "return a + b"
+    }
+  ]
+}

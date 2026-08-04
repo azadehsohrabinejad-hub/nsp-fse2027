@@ -1,0 +1,1 @@
+[{'file': 'src/calculator.py', 'operation': 'replace', 'old_string': 'return a * b', 'new_string': 'return a + b'}]

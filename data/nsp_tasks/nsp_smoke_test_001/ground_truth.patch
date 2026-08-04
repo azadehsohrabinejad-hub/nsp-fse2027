@@ -1,0 +1,7 @@
+--- a/src/calculator.py
++++ b/src/calculator.py
+@@
+ def add(a, b):
+     # Bug: multiplies instead of adding
+-    return a * b
++    return a + b
