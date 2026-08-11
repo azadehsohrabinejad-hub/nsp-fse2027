@@ -282,8 +282,8 @@ class NSPRepairRunner:
         print(f"\nTrace successfully saved to: {trace_path}")
 
 if __name__ == "__main__":
-    # Using the local smoke test that doesn't need npm
-    task_dir = r"D:\raz\razieh\data\nsp_tasks\nsp_smoke_test_001"
+    # Change path to the real Topcoder task
+    task_dir = r"D:\raz\razieh\data\nsp_tasks\tc_3928_twilio"
     
     # Using OllamaProvider
     provider = OllamaProvider(model_name="qwen2.5-coder:3b")

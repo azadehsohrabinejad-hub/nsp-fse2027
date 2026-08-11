@@ -1,0 +1,6 @@
+Task: Fix the DocuSign helper library integration issue.
+Fix the file: 
+Current buggy code:
+```
+
+```

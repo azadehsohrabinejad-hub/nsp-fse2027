@@ -1,0 +1,10 @@
+{
+  "plan": "Update import statement to correct package name",
+  "edits": [
+    {
+      "file": "src/docu_sign_helper.py",
+      "old_string": "from docuSign_rest_client import ApiClient, ApiException",
+      "new_string": "from docusign_rest_client import ApiClient, ApiException"
+    }
+  ]
+}
