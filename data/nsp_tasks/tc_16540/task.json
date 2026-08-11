@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_16540",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<div>\n<h2>Challenge Objectives</h2>\n\n<ul>\n\t<li>Integrate OCR proof of concept into the app.</li>\n\t<li>Document deployment and testing</li>\n</ul>\n\n<h2>Project Background</h2>\nWe are building a Smart Investment Advisor platform that empowers users of financial/brokerage sites to back-test, find new ideas for, optimize and trade their portfolios, based on proven theories pioneered by Nobel Prize-winning economists. Traditional financial/brokerage sites only allow users to see price charts and other",
+    "github_repo": "https://github.com/tesseract-ocr/tesseract",
+    "branch": null,
+    "commit_hash": "aa487229f177248ef247403b6340bc3f862f1bfc",
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

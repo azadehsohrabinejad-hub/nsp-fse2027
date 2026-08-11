@@ -1,0 +1,10 @@
+{
+  "plan": "Remove unnecessary HTML tags and fix indentation",
+  "edits": [
+    {
+      "file": "README.md",
+      "old_string": "<p>\n\tTo get started with DocuSign REST API you need to go get a free developer account on DocuSign DevCenter (<a href=\"http://www.docusign.com/devcenter\" target=\"_blank\">www.docusign.com/devcenter</a>...",
+      "new_string": "To get started with DocuSign REST API, you need to go get a free developer account on DocuSign DevCenter (www.docusign.com/devcenter)."
+    }
+  ]
+}

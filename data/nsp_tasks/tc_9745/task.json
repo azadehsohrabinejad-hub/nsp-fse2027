@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_9745",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<h1><span><span>1.0. Project Overview</span></span></h1>\n\n<p><span><span>Welcome to the NASA Disruption Tolerant Networking (DTN) project. DTN is an approach to computer network architecture that seek...",
+    "github_repo": "https://github.com/jvirkki/libbloom",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

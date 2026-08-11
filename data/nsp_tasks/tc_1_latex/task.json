@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "task_id": "tc_1_latex",
+  "benchmark": "Topcoder",
+  "language": "javascript",
+  "description": "Support LaTex formulas in Markdown rendering.",
+  "github_repo": "https://github.com/topcoder-platform/community-app",
+  "branch": "develop",
+  "commit_hash": null,
+  "target_files": [
+    "package.json"
+  ],
+  "setup_commands": [
+    "npm install --legacy-peer-deps"
+  ],
+  "test_commands": [
+    "npm test"
+  ],
+  "max_rounds": 2
+}

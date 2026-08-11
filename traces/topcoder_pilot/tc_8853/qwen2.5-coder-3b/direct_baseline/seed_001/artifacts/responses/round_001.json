@@ -1,0 +1,10 @@
+{
+  "plan": "Replace placeholder with actual code",
+  "edits": [
+    {
+      "file": "relative/path/to/file.py",
+      "old_string": "",
+      "new_string": "// Add your code here"
+    }
+  ]
+}

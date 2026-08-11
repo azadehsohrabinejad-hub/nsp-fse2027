@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "task_id": "tc_3928_twilio",
+  "benchmark": "Topcoder",
+  "language": "python",
+  "description": "Fix the DocuSign helper library integration issue.",
+  "github_repo": "https://github.com/twilio/twilio-python",
+  "branch": "main",
+  "commit_hash": null,
+  "target_files": [],
+  "setup_commands": [
+    "pip install -r requirements.txt"
+  ],
+  "test_commands": [
+    "pytest"
+  ],
+  "max_rounds": 1
+}

@@ -1,0 +1,10 @@
+{
+  "plan": "Remove or correct the missing or incorrect code block",
+  "edits": [
+    {
+      "file": "relative/path/to/file.py",
+      "old_string": "",
+      "new_string": "// Add your code here"
+    }
+  ]
+}

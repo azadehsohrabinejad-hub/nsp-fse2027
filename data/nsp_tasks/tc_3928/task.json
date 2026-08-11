@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_3928",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<p>\n\tTo get started with DocuSign REST API you need to go get a free developer account on DocuSign DevCenter (<a href=\"http://www.docusign.com/devcenter\" target=\"_blank\">www.docusign.com/devcenter</a>...",
+    "github_repo": "https://github.com/twilio/twilio-python",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

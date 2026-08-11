@@ -1,0 +1,922 @@
+[
+    {
+        "task_id": "tc_3928",
+        "name": "DocuSign: Helper libraries in Python",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,API,REST,DocuSign",
+        "github_repo": "https://github.com/twilio/twilio-python",
+        "requires_patch": false,
+        "description_excerpt": "<p>\n\tTo get started with DocuSign REST API you need to go get a free developer account on DocuSign DevCenter (<a href=\"http://www.docusign.com/devcenter\" target=\"_blank\">www.docusign.com/devcenter</a>..."
+    },
+    {
+        "task_id": "tc_7670",
+        "name": "3-tier Web App PoC",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "HTML,JavaScript,PostgreSQL,Python,AWS",
+        "github_repo": "https://github.com/BurntSushi/nfldb",
+        "requires_patch": false,
+        "description_excerpt": "<h2><span style=\"color:rgb(255, 0, 0)\">Competition Task Overview</span></h2>\n\n<p>This challenge is for the build and design of a 3-tier web application deployed into the AWS cloud.&nbsp; The purpose o..."
+    },
+    {
+        "task_id": "tc_8853",
+        "name": "SunShot - Sunmetrix - Green Button Python Script",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "XML,MySQL,Python,API,REST,Other",
+        "github_repo": "https://github.com/energyos/OpenESPI-Common-java",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-size:21px\">Challenge Overview</span></span></p>\n\n<p>&nbsp;\n<p dir=\"ltr\"><spa..."
+    },
+    {
+        "task_id": "tc_9745",
+        "name": "DTN Neighbor Discovery - Port C Bloom Filter Library to Python",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "C,Python,Other",
+        "github_repo": "https://github.com/jvirkki/libbloom",
+        "requires_patch": false,
+        "description_excerpt": "<h1><span><span>1.0. Project Overview</span></span></h1>\n\n<p><span><span>Welcome to the NASA Disruption Tolerant Networking (DTN) project. DTN is an approach to computer network architecture that seek..."
+    },
+    {
+        "task_id": "tc_10081",
+        "name": "Watson IBM Bluemix - Fun Sweepstakes - Personality Insights - Week 3",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Java,PHP,Python,Other,IBM Cloud,NodeJS",
+        "github_repo": "https://github.com/watson-developer-cloud/yourcelebritymatch",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"color:rgb(0, 0, 0)\"><span style=\"font-family:verdana,geneva,sans-serif\"><span style=\"font-size:14px\"><strong>Overview</strong></span></span></span></p>\n\n<p><span style=\"color:rgb(0, 0,..."
+    },
+    {
+        "task_id": "tc_10115",
+        "name": "Watson IBM Bluemix - Fun Sweepstakes - Personality Insights - Week 4",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Java,PHP,Python,Other,IBM Cloud,NodeJS",
+        "github_repo": "https://github.com/watson-developer-cloud/yourcelebritymatch",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"color:rgb(0, 0, 0)\"><span style=\"font-family:verdana,geneva,sans-serif\"><span style=\"font-size:14px\"><strong>Overview</strong></span></span></span></p>\n\n<p><span style=\"color:rgb(0, 0,..."
+    },
+    {
+        "task_id": "tc_10167",
+        "name": "Watson IBM Bluemix - Fun Sweepstakes - Personality Insights - Week 2",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Java,PHP,Python,Other,IBM Cloud,NodeJS",
+        "github_repo": "https://github.com/watson-developer-cloud/yourcelebritymatch",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"color:#000000\"><span style=\"font-family:verdana,geneva,sans-serif\"><span style=\"font-size:14px\"><strong>Overview</strong></span></span></span></p>\n\n<p><span style=\"color:#000000\"><span..."
+    },
+    {
+        "task_id": "tc_10255",
+        "name": "SunShot - Re-volv Reinvestment Improvement Code Challenge",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "HTML,JavaScript,CSS,PostgreSQL,Python,Other",
+        "github_repo": "https://github.com/calblueprint/revolv",
+        "requires_patch": true,
+        "description_excerpt": "<p>Welcome to the SunShot - RE-volv Reinvestment Improvement Challenge Part 1!</p>\n\n<p dir=\"ltr\">RE-volv is a solar energy crowdfunding platform. &nbsp;The platform allows individuals to donate to sol..."
+    },
+    {
+        "task_id": "tc_10297",
+        "name": "Watson IBM Bluemix - Fun Sweepstakes - Personality Insights - Week 5",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Java,PHP,Python,Other,IBM Cloud,NodeJS",
+        "github_repo": "https://github.com/watson-developer-cloud/yourcelebritymatch",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"color:rgb(0, 0, 0)\"><span style=\"font-family:verdana,geneva,sans-serif\"><span style=\"font-size:14px\"><strong>Overview</strong></span></span></span></p>\n\n<p><span style=\"color:rgb(0, 0,..."
+    },
+    {
+        "task_id": "tc_10310",
+        "name": "SunShot - Re-volv - Campaign improvement Python",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "HTML,JavaScript,CSS,PostgreSQL,Python",
+        "github_repo": "https://github.com/calblueprint/revolv",
+        "requires_patch": true,
+        "description_excerpt": "<p dir=\"ltr\">RE-volv is a solar energy crowdsourcing platform. &nbsp;The platform allows individuals to donate to solar energy projects. &nbsp;RE-volv then re-invests the money the projects&#39; saved..."
+    },
+    {
+        "task_id": "tc_10327",
+        "name": "Watson IBM Bluemix - Fun Sweepstakes - Personality Insights - Week 6",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Java,PHP,Python,Other,IBM Cloud,NodeJS",
+        "github_repo": "https://github.com/watson-developer-cloud/yourcelebritymatch",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"color:rgb(0, 0, 0)\"><span style=\"font-family:verdana,geneva,sans-serif\"><span style=\"font-size:14px\"><strong>Overview</strong></span></span></span></p>\n\n<p><span style=\"color:rgb(0, 0,..."
+    },
+    {
+        "task_id": "tc_10357",
+        "name": "RE-volv Reinvestment Improvement Challenge Part 2",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "HTML,JavaScript,CSS,PostgreSQL,Python,Heroku",
+        "github_repo": "https://github.com/calblueprint/revolv",
+        "requires_patch": true,
+        "description_excerpt": "<p><span>Welcome to the SunShot - RE-volv Reinvestment Improvement Challenge Part 2!</span></p>\n\n<p dir=\"ltr\">RE-volv is a solar energy crowdfunding platform. &nbsp;The platform allows individuals to ..."
+    },
+    {
+        "task_id": "tc_10424",
+        "name": "SunShot - Re-volv Django SFDC Integration F2F",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "Python,Salesforce,API,Other",
+        "github_repo": "https://github.com/calblueprint/revolv",
+        "requires_patch": true,
+        "description_excerpt": "<p dir=\"ltr\">The goal of this challenge is to integrate the provided django/python app with Salesforce.</p>\n\n<h1 dir=\"ltr\">Challenge Requirements</h1>\n\n<p dir=\"ltr\">The new requirements needed :</p>\n\n..."
+    },
+    {
+        "task_id": "tc_10453",
+        "name": "Watson IBM Bluemix - Fun Sweepstakes - Language Translation - Week 2",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Java,PHP,Python,Node.js,Other,IBM Cloud,NodeJS",
+        "github_repo": "https://github.com/watson-developer-cloud/language-translation-nodejs",
+        "requires_patch": false,
+        "description_excerpt": "<p><span>Our last series of IBM Watson challenge we explored&nbsp;<span>Tone Analyzer</span>. This week&nbsp;it&#39;s&nbsp;time for another API &quot;Language Translation&quot; from IBM. Again, this i..."
+    },
+    {
+        "task_id": "tc_10516",
+        "name": "Watson IBM Bluemix - Fun Sweepstakes - Language Translation - Week 4",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Java,Python,Node.js,Other,IBM Cloud,NodeJS",
+        "github_repo": "https://github.com/watson-developer-cloud/language-translation-nodejs",
+        "requires_patch": false,
+        "description_excerpt": "<div class=\"previewMask\">\n<p><span><span>Our last series of IBM Watson challenge we explored&nbsp;<span>Tone Analyzer</span>. This week&nbsp;it&#39;s&nbsp;time for another API &quot;Language Translati..."
+    },
+    {
+        "task_id": "tc_10555",
+        "name": "Watson IBM Bluemix - Fun Sweepstakes - Language Translation - Week 5",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "PHP,Python,Node.js,Other,IBM Cloud,NodeJS",
+        "github_repo": "https://github.com/watson-developer-cloud/language-translation-nodejs",
+        "requires_patch": false,
+        "description_excerpt": "<div class=\"previewMask\">\n<p><span><span>Our last series of IBM Watson challenge we explored&nbsp;<span>Tone Analyzer</span>. This week&nbsp;it&#39;s&nbsp;time for another API &quot;Language Translati..."
+    },
+    {
+        "task_id": "tc_10605",
+        "name": "Watson IBM Bluemix - Fun Sweepstakes - Language Translation - Week 3",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Java,PHP,Python,Node.js,Other,IBM Cloud,NodeJS",
+        "github_repo": "https://github.com/watson-developer-cloud/language-translation-nodejs",
+        "requires_patch": false,
+        "description_excerpt": "<div class=\"previewMask\">\n<h2><span>Overview</span></h2>\n\n<p><span>Our last series of IBM Watson challenge we explored&nbsp;<span>Tone Analyzer</span>. This week&nbsp;it&#39;s&nbsp;time for another AP..."
+    },
+    {
+        "task_id": "tc_12707",
+        "name": "C code parsing and documentation",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Linux",
+        "github_repo": "https://github.com/Quagga/quagga",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:arial; font-size:11pt\">We have a large manufacturer of telecommunication equipment that writes all their firmware in ANSI ..."
+    },
+    {
+        "task_id": "tc_12738",
+        "name": "C code documentation reverse engineering",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Linux",
+        "github_repo": "https://github.com/Quagga/quagga",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:arial; font-size:11pt\">We have a large manufacturer of telecommunication equipment that writes all their firmware in ANSI ..."
+    },
+    {
+        "task_id": "tc_12774",
+        "name": "C code documentation - finite state machines",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Linux",
+        "github_repo": "https://github.com/Quagga/quagga",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:arial; font-size:11pt\">We have a large manufacture of telecommunication equipment that writes all their firmware in ANSI C..."
+    },
+    {
+        "task_id": "tc_12906",
+        "name": "API Gateway import tool",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "AWS,JSON,Python,API,Linux",
+        "github_repo": "https://github.com/OAI/OpenAPI-Specification",
+        "requires_patch": false,
+        "description_excerpt": "<div><span style=\"color:#000000\">In this challenge series we will be building a tool that imports a swagger API definition into Amazon API Gateway.<br />\n<br />\nThe tool will have two tasks:</span></d..."
+    },
+    {
+        "task_id": "tc_13023",
+        "name": "Actian Vector Schema Conversion Tool Challenge",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Actian Vector \u2013 SMP Analytics Database,Actian Data Management,Actian Data Analytics,Python,Node.js,Other",
+        "github_repo": "https://github.com/ActianCorp/dbmv",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:calibri; font-size:12pt\"><em>NOTE - This is a repost of an earlier challenge with reduced scope. The challenge will be jud..."
+    },
+    {
+        "task_id": "tc_13218",
+        "name": "AWS LEX NLP PoC Challenge",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Node.js,AWS",
+        "github_repo": "https://github.com/awslabs/aws-lex-web-ui",
+        "requires_patch": false,
+        "description_excerpt": "<h1><span style=\"font-size:12px\"><span style=\"font-family:tahoma,geneva,sans-serif\"><span style=\"color:rgb(55, 55, 59)\">This challenge is responsible for implementing the following two intents defined..."
+    },
+    {
+        "task_id": "tc_13236",
+        "name": "Mythril - Smart Contract Security Analysis Web API",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Blockchain,JavaScript,Python,API,REST,Other",
+        "github_repo": "https://github.com/b-mueller/mythril",
+        "requires_patch": false,
+        "description_excerpt": "The scope of this challenge is create an asynchronous API for the <a href=\"https://github.com/b-mueller/mythril\">Mythril</a> security analysis tool. The API should allow users to submit Ethereum bytec..."
+    },
+    {
+        "task_id": "tc_13247",
+        "name": "HTML Table data extraction - Bug fixes",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/yuanxu-li/html-table-extractor",
+        "requires_patch": false,
+        "description_excerpt": "<span style=\"color:#000000\"><span style=\"font-size:14px\">Unstructured text mining is the key the future of data science.&nbsp; Many data sources provide valuable data in unstructured and semi-structur..."
+    },
+    {
+        "task_id": "tc_13422",
+        "name": "PseudoVet - Convert Aging Algorithm Into REST API Python Challenge",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "JSON,Python,REST,Other",
+        "github_repo": "https://github.com/topcoderinc/va-pseudovet",
+        "requires_patch": false,
+        "description_excerpt": "<p style=\"text-align:justify\"><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:arial; font-size:11pt\">Welcome to the &ldquo;</span><strong>PseudoVet - Convert Aging Algorithm..."
+    },
+    {
+        "task_id": "tc_13483",
+        "name": "Mythril & LASER-ethereum - Unit-Testing",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Blockchain,Ethereum,Python,Linux",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": true,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for Ethereum smart contracts, written in Python. It uses the <a href=\"https://github.com/b-mueller/laser-ethereum..."
+    },
+    {
+        "task_id": "tc_13499",
+        "name": "Mythril - Symbolic Trace Explorer",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Blockchain,Ethereum,JavaScript,Python,Linux,Other",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": false,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for Ethereum smart contracts. It is based on a symbolic virtual machine (SVM) called <a href=\"https://github.com/..."
+    },
+    {
+        "task_id": "tc_13505",
+        "name": "Mythril - LevelDB support",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Blockchain,Ethereum,Python,Linux",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": true,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> has an exploration feature for searching and analyzing smart contracts on the Ethereum blockchain:<br />\n<a href=\"https://github.com/ConsenSy..."
+    },
+    {
+        "task_id": "tc_13513",
+        "name": "ConsenSys - Mythril - Sublime Plugin",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Blockchain,Ethereum,Python,Other",
+        "github_repo": "https://github.com/b-mueller/mythril",
+        "requires_patch": false,
+        "description_excerpt": "In the <a href=\"https://blockchain.topcoder.com/challenges/30062676\">previous challenge</a> we have created a Visual Studio Code Extension that performs security analysis on a Solidity source code fil..."
+    },
+    {
+        "task_id": "tc_13586",
+        "name": "ConsenSys - Mythril - CLI refactoring",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Blockchain,Ethereum,Python,Other",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": true,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for Ethereum smart contracts, written in Python. It uses the <a href=\"https://github.com/b-mueller/laser-ethereum..."
+    },
+    {
+        "task_id": "tc_13596",
+        "name": "MS SQL Server to Actian Vector Schema Conversion Challenge",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Actian Vector \u2013 SMP Analytics Database,Actian Data Analytics,Python,Other",
+        "github_repo": "https://github.com/ActianCorp/dbmv",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"font-size:12px\"><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:arial\">We need help from the TopCoder community to implement Part 2 of the DBMV schema conver..."
+    },
+    {
+        "task_id": "tc_13598",
+        "name": "Mythril - Fix tests and build",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "Blockchain,Ethereum,Python,Linux",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": true,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for <a href=\"https://en.wikipedia.org/wiki/Ethereum\">Ethereum</a> smart contracts, written in Python.<br />\n<br /..."
+    },
+    {
+        "task_id": "tc_13599",
+        "name": "Mythril - Improve formatting of analysis reports",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "Blockchain,Ethereum,Python,Linux",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": true,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for <a href=\"https://en.wikipedia.org/wiki/Ethereum\">Ethereum</a> smart contracts, written in Python.<br />\n<br /..."
+    },
+    {
+        "task_id": "tc_13600",
+        "name": "Mythril - Fix bugs related to multi-threading support in db initialization functionality",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "Blockchain,Ethereum,Python,Linux",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": true,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for <a href=\"https://en.wikipedia.org/wiki/Ethereum\">Ethereum</a> smart contracts, written in Python.<br />\n<br /..."
+    },
+    {
+        "task_id": "tc_13627",
+        "name": "Mythril - Improve reading of dynamic arrays",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "Blockchain,Ethereum,Solidity,Python,Linux,Other",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": true,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for <a href=\"https://en.wikipedia.org/wiki/Ethereum\">Ethereum</a> smart contracts, written in Python.<br />\n<br /..."
+    },
+    {
+        "task_id": "tc_13747",
+        "name": "Wanted: Mythril Release Manager (II)",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Blockchain,Ethereum,Solidity,Python,Other",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": true,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for <a href=\"https://en.wikipedia.org/wiki/Ethereum\">Ethereum</a> smart contracts, written in Python. It uses the..."
+    },
+    {
+        "task_id": "tc_13748",
+        "name": "Wanted: Mythril Release Manager (I)",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Blockchain,Ethereum,Solidity,Python,Other",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": true,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for <a href=\"https://en.wikipedia.org/wiki/Ethereum\">Ethereum</a> smart contracts, written in Python. It uses the..."
+    },
+    {
+        "task_id": "tc_13832",
+        "name": "Mythril - Refactor the search feature",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Blockchain,Ethereum,Solidity,Python,Other",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": true,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for <a href=\"https://en.wikipedia.org/wiki/Ethereum\">Ethereum</a> smart contracts. It uses concolic analysis, tai..."
+    },
+    {
+        "task_id": "tc_13833",
+        "name": "Mythril - Fix crushes on the contracts containing non-ascii characters",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "Blockchain,Ethereum,Solidity,Python,Other",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": true,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for <a href=\"https://en.wikipedia.org/wiki/Ethereum\">Ethereum</a> smart contracts. It uses concolic analysis, tai..."
+    },
+    {
+        "task_id": "tc_14065",
+        "name": "Mythril - Smart Contract Hash-to-Address Mapping",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Blockchain,Ethereum,Solidity,Python,Linux",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": true,
+        "description_excerpt": "<p><a href=\"https://github.com/ConsenSys/mythril\" style=\"text-decoration-line: none;\"><span style=\"background-color:transparent; color:rgb(17, 85, 204); font-family:arial; font-size:11pt\">Mythril</spa..."
+    },
+    {
+        "task_id": "tc_14843",
+        "name": "Quartz Energy - XRD API Implementation Challenge Part 1 - Normalization",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,MongoDB,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n<br />\n<ul>\n\t<li>\n\t<p><em>Python Rest API development using Flask framework</em></p>\n\t</li>\n\t<li>\n\t<p><em>Implement CRUD endpoints for minerals catalogue a..."
+    },
+    {
+        "task_id": "tc_14852",
+        "name": "Hestia - Differential Privacy - Data Anonymization Challenge",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Java,Python,Other",
+        "github_repo": "https://github.com/uber/sql-differential-privacy",
+        "requires_patch": false,
+        "description_excerpt": "<strong>Challenge Detail</strong><br />\n<br />\nIn this challenge you have to implement differential privacy masking breaks on the given dataset in a way so that no corelation to real world objects/peo..."
+    },
+    {
+        "task_id": "tc_14861",
+        "name": "AthenaEC - Data Gathering - Updates",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/Azure/azure-sdk-for-python",
+        "requires_patch": true,
+        "description_excerpt": "<h4><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Challenge Details</span></span></h4>\n<span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-se..."
+    },
+    {
+        "task_id": "tc_15161",
+        "name": "Quartz Energy - NCS Calculator API",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>\n\t<p><em>Python Rest API development using Flask framework</em></p>\n\t</li>\n\t<li>\n\t<p><em>Implement CRUDL endpoints for minerals c..."
+    },
+    {
+        "task_id": "tc_15218",
+        "name": "Quartz Energy - Electrical properties converter API",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>\n\t<p><em>Python Rest API development using Flask framework</em></p>\n\t</li>\n\t<li>\n\t<p><em>Implement CRUDL endpoints for minerals c..."
+    },
+    {
+        "task_id": "tc_15219",
+        "name": "Quartz Energy - Unit Converter API",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/hgrecco/pint",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>\n\t<p><em>Python Rest API development using Flask framework</em></p>\n\t</li>\n\t<li>\n\t<p><em>Implement CRUDL endpoints for units and ..."
+    },
+    {
+        "task_id": "tc_15294",
+        "name": "Quartz Energy - Core Trip Scheduler API challenge",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>\n\t<p><em>Python Rest API development using Flask framework</em></p>\n\t</li>\n\t<li>\n\t<p><em>Implement CRUDL endpoints for data impor..."
+    },
+    {
+        "task_id": "tc_15317",
+        "name": "Quartz Energy - Water saturation estimate API",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,MongoDB,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>\n\t<p><em>Python Rest API development using Flask framework</em></p>\n\t</li>\n\t<li>\n\t<p><em>Implement CRUDL endpoints for data impor..."
+    },
+    {
+        "task_id": "tc_15318",
+        "name": "Quartz Energy - XRD CEC API",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,MongoDB,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>\n\t<p><em>Python Rest API development using Flask framework</em></p>\n\t</li>\n\t<li>\n\t<p><em>Implement CRUDL endpoints for minerals c..."
+    },
+    {
+        "task_id": "tc_15429",
+        "name": "[48hrs] Quartz Energy - Water saturation estimate API updates challenge",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>\n\t<p><em>Flask Rest API updates</em></p>\n\t</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>Project Background</strong></p>\n\n<ul>\n\t<li>\n\t<p>..."
+    },
+    {
+        "task_id": "tc_15447",
+        "name": "Quartz Energy - Klinkenberg calculator API challenge",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,MongoDB,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>\n\t<p><em>Python Rest API development using Flask framework</em></p>\n\t</li>\n\t<li>\n\t<p><em>Implement CRUDL endpoints for data impor..."
+    },
+    {
+        "task_id": "tc_15459",
+        "name": "[72 hr] Quartz Energy - Blessed Rock Properties",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>\n\t<p><em>Python Rest API development using Flask framework</em></p>\n\t</li>\n\t<li>\n\t<p><em>Implement CRUDL endpoints for data impor..."
+    },
+    {
+        "task_id": "tc_15460",
+        "name": "Quartz Energy - PVT Properties API",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>\n\t<p><em>Python Rest API development using Flask framework</em></p>\n\t</li>\n\t<li>\n\t<p><em>Implement CRUDL endpoints for data impor..."
+    },
+    {
+        "task_id": "tc_15494",
+        "name": "[48 hrs] Quartz Energy - Blessed Rock calculator API updates challenge",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,MongoDB,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:times new roman; font-size:12pt\">&nbsp;</span></p>\n\n<p><strong>Challenge Objectives</strong></p>\n\n<p><span style=\"backgrou..."
+    },
+    {
+        "task_id": "tc_15497",
+        "name": "[48hrs] Quartz Energy - Klinkenberg Calculator API Updates",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:times new roman; font-size:12pt\">&nbsp;</span></p>\n\n<ul>\n\t<li>\n\t<p><em>Updat..."
+    },
+    {
+        "task_id": "tc_15511",
+        "name": "Quartz Energy - Merge XRD API",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>\n\t<p><em>Python Rest API development using Flask framework</em></p>\n\t</li>\n\t<li>\n\t<p><em>Update calculation endpoints</em></p>\n\t<..."
+    },
+    {
+        "task_id": "tc_15555",
+        "name": "Quartz Energy - Water chemistry calculator API",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>\n\t<p><em>Python Rest API development using Flask framework</em></p>\n\t</li>\n\t<li>\n\t<p><em>Implement CRUDL endpoints for data impor..."
+    },
+    {
+        "task_id": "tc_15578",
+        "name": "[48hrs] Quartz Energy - Klinkenberg Calculator API Updates",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "&nbsp;\n<p><strong>Challenge Objectives</strong></p>\n\n<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:times new roman; font-size:12pt\">&nbsp;</span></p>\n\n<ul>\n\t<li>\n\t<p><e..."
+    },
+    {
+        "task_id": "tc_15588",
+        "name": "[Quick - 36hrs] Quartz Energy - Blessed Rock API updates",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p>Challenge Objectives</p>\n\n<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:times new roman; font-size:12pt\">&nbsp;</span></p>\n\n<ul>\n\t<li>\n\t<p><em>Python Rest API develo..."
+    },
+    {
+        "task_id": "tc_15589",
+        "name": "[Quick - 36hrs] Quartz Energy - Electrical properties converter API updates",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p>Challenge Objectives</p>\n\n<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:times new roman; font-size:12pt\">&nbsp;</span></p>\n\n<ul>\n\t<li>\n\t<p><em>Python Rest API develo..."
+    },
+    {
+        "task_id": "tc_15590",
+        "name": "[Quick - 36hrs] Quartz Energy - Core Trip Scheduler API updates",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p>Challenge Objectives</p>\n\n<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:times new roman; font-size:12pt\">&nbsp;</span></p>\n\n<ul>\n\t<li>\n\t<p><em>Python Rest API develo..."
+    },
+    {
+        "task_id": "tc_15591",
+        "name": "[Quick - 36hrs] Quartz Energy - Water saturation estimate API updates",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p>Challenge Objectives</p>\n\n<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:times new roman; font-size:12pt\">&nbsp;</span></p>\n\n<ul>\n\t<li><em>Python Rest API development..."
+    },
+    {
+        "task_id": "tc_15603",
+        "name": "[Quick 36hrs] Quartz Energy - PVT Properties API updates",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"background-color:transparent; color:rgb(42, 42, 43); font-family:roboto,sans-serif; font-size:11.5pt\">Challenge Objectives</span></p>\n\n<p><span style=\"background-color:transparent; col..."
+    },
+    {
+        "task_id": "tc_15604",
+        "name": "[Quick 36hrs] Quartz Energy - NCS Calculator API updates",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"background-color:transparent; color:rgb(42, 42, 43); font-family:roboto,sans-serif; font-size:11.5pt\">Challenge Objectives</span></p>\n\n<p><span style=\"background-color:transparent; col..."
+    },
+    {
+        "task_id": "tc_15605",
+        "name": "Quartz Energy - Water chemistry calculator API updates",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"background-color:transparent; color:rgb(42, 42, 43); font-family:roboto,sans-serif; font-size:11.5pt\">Challenge Objectives</span></p>\n\n<p><span style=\"background-color:transparent; col..."
+    },
+    {
+        "task_id": "tc_15626",
+        "name": "[72hr] Gng - Variable Filtrate Density API",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Matlab,Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:times new roman; font-size:12pt\">&nbsp;</span></p>\n\n<ul>\n\t<li>\n\t<p><em>Port ..."
+    },
+    {
+        "task_id": "tc_15633",
+        "name": "[Quick 24hrs] Quartz Energy - Overburden calculator API updates",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"background-color:transparent; color:rgb(42, 42, 43); font-family:roboto,sans-serif; font-size:11.5pt\">Challenge Objectives</span></p>\n\n<p><span style=\"background-color:transparent; col..."
+    },
+    {
+        "task_id": "tc_15652",
+        "name": "[48hrs] Quartz Energy - Rock Typing Calculator API",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "&nbsp;\n<p><strong>Challenge Objectives</strong></p>\n\n<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:times new roman; font-size:12pt\">&nbsp;</span></p>\n\n<ul>\n\t<li>\n\t<p><e..."
+    },
+    {
+        "task_id": "tc_15726",
+        "name": "Quartz Energy - TST/TVT API",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:times new roman; font-size:12pt\">&nbsp;</span></p>\n\n<ul>\n\t<li>\n\t<p><em>Pytho..."
+    },
+    {
+        "task_id": "tc_15727",
+        "name": "Quartz Energy - Overburden calculator API challenge",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/google/styleguide",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:times new roman; font-size:12pt\">&nbsp;</span></p>\n\n<ul>\n\t<li>\n\t<p><em>Pytho..."
+    },
+    {
+        "task_id": "tc_15791",
+        "name": "96Hrs - Python App Migration - Migrate OnCall app to AWS (Lambda)",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,AWS",
+        "github_repo": "https://github.com/linkedin/oncall",
+        "requires_patch": false,
+        "description_excerpt": "<ul>\n\t<li>\n\t<p><span style=\"background-color:transparent; font-size:12pt\">Migrate the provided calendar tool to use AWS services.</span></p>\n\t</li>\n</ul>\n<span style=\"color:rgb(102, 102, 102); font-fa..."
+    },
+    {
+        "task_id": "tc_15940",
+        "name": "Iris Services - Migration to AWS (Lambda and SQS) Challenge",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,AWS",
+        "github_repo": "https://github.com/linkedin/iris",
+        "requires_patch": true,
+        "description_excerpt": "<h1>Challenge Objectives</h1>\n\n<ul>\n\t<li>Make iris-sevice serverless</li>\n</ul>\n\n<h1>Technology Stack</h1>\n\n<ul>\n\t<li>Python 2.7</li>\n\t<li>AWS Lambda</li>\n\t<li>AWS SQS</li>\n\t<li>AWS API Gateway</li>\n<..."
+    },
+    {
+        "task_id": "tc_16181",
+        "name": "SIA - Smart Investment Advisor - OCR proof of concept",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "OCR,Python,HTML5,Other",
+        "github_repo": "https://github.com/tesseract-ocr/tesseract",
+        "requires_patch": false,
+        "description_excerpt": "<h2>Challenge Objectives</h2>\n\n<ul>\n\t<li>New basic web app that demonstrates some basic OCR functionality.</li>\n\t<li>This will be used later on in a production web app</li>\n</ul>\n\n<h2>Project Backgrou..."
+    },
+    {
+        "task_id": "tc_16372",
+        "name": "F2F Fasta Issue Resolution",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "Python,AWS",
+        "github_repo": "https://github.com/wrpearson/fasta36",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"background-color:transparent; color:rgb(102, 102, 102); font-family:arial; font-size:11pt\">Topcoder has a client that is using a Python 2.7 os command to launch a protein and DNA seque..."
+    },
+    {
+        "task_id": "tc_16540",
+        "name": "SIA - Smart Investment Advisor - OCR integration into the app",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Angular 2+,Python,Heroku,NodeJS",
+        "github_repo": "https://github.com/tesseract-ocr/tesseract",
+        "requires_patch": true,
+        "description_excerpt": "<div>\n<h2>Challenge Objectives</h2>\n\n<ul>\n\t<li>Integrate OCR proof of concept into the app.</li>\n\t<li>Document deployment and testing</li>\n</ul>\n\n<h2>Project Background</h2>\nWe are building a Smart In..."
+    },
+    {
+        "task_id": "tc_16555",
+        "name": "Hackathon Series - Create a Slack Bot",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Heroku,Python,Node.js,API,Other",
+        "github_repo": "https://github.com/howdyai/botkit-starter-slack",
+        "requires_patch": false,
+        "description_excerpt": "<h2>Project Background</h2>\n\n<p><span style=\"background-color:transparent; color:rgb(255, 0, 0); font-family:arial; font-size:11pt\">This is a fun challenge. Top 10 members will be awarded a cash prize..."
+    },
+    {
+        "task_id": "tc_16619",
+        "name": "Smart Investment Advisor - OCR updates for auto-detection of account details and small bug",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "OCR,Python,Other",
+        "github_repo": "https://github.com/tesseract-ocr/tesseract",
+        "requires_patch": true,
+        "description_excerpt": "<h2>Challenge Objectives</h2>\n\n<ul>\n\t<li>Add a new OCR auto-detection feature</li>\n\t<li>Fix a bug with how one sample image is processed</li>\n</ul>\n\n<h2>Project Background</h2>\nWe are building a Smart..."
+    },
+    {
+        "task_id": "tc_16626",
+        "name": "Genetic Functional Annotation Process - EggNog component F2F",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/eggnogdb/eggnog-mapper",
+        "requires_patch": false,
+        "description_excerpt": "<div>\n<h2><strong>1. Context:</strong></h2>\n\n<h3><strong>PROJECT CONTEXT</strong></h3>\n\n<p><span style=\"color:rgb(0, 0, 0); font-family:arial; font-size:14px\">Topcoder is working to build a genomic an..."
+    },
+    {
+        "task_id": "tc_16727",
+        "name": "Scout Phase 3 Backend API Part 2",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Docker,PostgreSQL,Python,Node.js,REST,AWS",
+        "github_repo": "https://github.com/mher/node-celery",
+        "requires_patch": false,
+        "description_excerpt": "<p><strong>Challenge Objectives</strong></p>\n\n<ul>\n\t<li>\n\t<p><span style=\"background-color:transparent; font-size:11pt\">Rewrite the backend api for an existing web app to support more features to be b..."
+    },
+    {
+        "task_id": "tc_17107",
+        "name": "Topcoder Skill Builder Competition - QGroundControl System - ICAROUS and WebGS Setup",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "C++,Python,Other",
+        "github_repo": "https://github.com/nasa/icarous",
+        "requires_patch": false,
+        "description_excerpt": "<h2><strong><img alt=\"\" src=\"https://drive.google.com/uc?export=view&amp;id=1UOZ9fvL7h-5lXrsB51A0JMSBX0Ldr9KY\" /></strong></h2>\n\n<h2>Challenge Introduction</h2>\n\n<p>Welcome to our Topcoder Skill Build..."
+    },
+    {
+        "task_id": "tc_17343",
+        "name": "[72h] Challenge AI - Member Skill Extractor API Updates",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Docker,Dynamodb,Python,Other",
+        "github_repo": "https://github.com/topcoder-platform/challenge-api",
+        "requires_patch": false,
+        "description_excerpt": "<h2><strong>Project Context</strong></h2>\nThis challenge is a part of the project aimed to add AI capabilities to Topcoder.<br />\n&nbsp;\n<h2><strong>Challenge Context</strong></h2>\nWithin the project ..."
+    },
+    {
+        "task_id": "tc_17391",
+        "name": "Challenge AI - Update Database for Member Skill Extractor",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Docker,Dynamodb,Python,Other",
+        "github_repo": "https://github.com/pynamodb/PynamoDB",
+        "requires_patch": true,
+        "description_excerpt": "<h2><strong>Project Context</strong></h2>\nThis challenge is a part of the project aimed to add AI capabilities to Topcoder.<br />\n&nbsp;\n<h2><strong>Challenge Context</strong></h2>\nWithin the project ..."
+    },
+    {
+        "task_id": "tc_31243",
+        "name": "Actian Vector Schema Conversion Tool Challenge",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Actian Vector \u2013 SMP Analytics Database,Actian Data Management,Actian Data Analytics,Python,Node.js,Other",
+        "github_repo": "https://github.com/ActianCorp/dbmv",
+        "requires_patch": false,
+        "description_excerpt": "<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:calibri; font-size:12pt\">Welcome to the Actian Vector Schema Conversion Tool Challenge.</span></p>\n&nbsp;\n\n<p><span style=..."
+    },
+    {
+        "task_id": "tc_31540",
+        "name": "NLP AWS LEX PoC Challenge",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Python,Node.js,AWS",
+        "github_repo": "https://github.com/awslabs/aws-lex-web-ui",
+        "requires_patch": false,
+        "description_excerpt": "This challenge is responsible for implementing the following two intents defined in this document: https://docs.google.com/document/d/1vy12etcglIJ6HPU9Ne7pl1mHwnrGJxfzwX3NUGIBp3M/edit&nbsp;<br />\n-&nb..."
+    },
+    {
+        "task_id": "tc_31809",
+        "name": "ConsenSys - Mythril - Sublime Plugin",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Blockchain,Ethereum,Python,Other",
+        "github_repo": "https://github.com/b-mueller/mythril",
+        "requires_patch": false,
+        "description_excerpt": "In the <a href=\"https://blockchain.topcoder.com/challenges/30062676\">previous challenge</a> we have created a Visual Studio Code Extension that performs security analysis on a Solidity source code fil..."
+    },
+    {
+        "task_id": "tc_31811",
+        "name": "Mythril - Dockerization and Integration Testing",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Docker,Blockchain,Ethereum,JavaScript,Python,Other",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": false,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for Ethereum smart contracts, written in Python. It uses the <a href=\"https://github.com/b-mueller/laser-ethereum..."
+    },
+    {
+        "task_id": "tc_31822",
+        "name": "Mythril - API and VSCode Extension - Unit-Testing",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Blockchain,JavaScript,Node.js,NodeJS",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": true,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for Ethereum smart contracts, written in Python. It uses the <a href=\"https://github.com/b-mueller/laser-ethereum..."
+    },
+    {
+        "task_id": "tc_31926",
+        "name": "Mythril - API Dockerization and Integration Testing",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Docker,Blockchain,Continuous Integration,Linux,Ethereum,JavaScript,Python,Node.js,API,NodeJS",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": true,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for Ethereum smart contracts, written in Python. In past challenges we have created a REST API that exposes Mythr..."
+    },
+    {
+        "task_id": "tc_31996",
+        "name": "Mythril - API Dockerization and Integration Testing",
+        "trackType": "Development",
+        "type": "Challenge",
+        "technologies": "Docker,Blockchain,Continuous Integration,Linux,Ethereum,JavaScript,Python,Node.js,API,NodeJS",
+        "github_repo": "https://github.com/ConsenSys/mythril",
+        "requires_patch": true,
+        "description_excerpt": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for Ethereum smart contracts, written in Python. In past challenges we have created a REST API that exposes Mythr..."
+    },
+    {
+        "task_id": "tc_34275",
+        "name": "Genetic Functional Annotation Process - EggNog component F2F",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/eggnogdb/eggnog-mapper",
+        "requires_patch": false,
+        "description_excerpt": "<div>\n<p><span style=\"font-size:14px\"><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:arial\">Topcoder is working to build a genomic annotation pipeline for a customer.&nbsp;..."
+    },
+    {
+        "task_id": "tc_34329",
+        "name": "Genetic Functional Annotation Process - EggNog component F2F",
+        "trackType": "Development",
+        "type": "First2Finish",
+        "technologies": "Python,Other",
+        "github_repo": "https://github.com/eggnogdb/eggnog-mapper",
+        "requires_patch": false,
+        "description_excerpt": "<div>\n<p><span style=\"font-size:14px\"><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:arial\">Topcoder is working to build a genomic annotation pipeline for a customer.&nbsp;..."
+    }
+]

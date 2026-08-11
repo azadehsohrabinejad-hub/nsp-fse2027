@@ -1,0 +1,10 @@
+{
+  "plan": "Replace placeholder with actual URL",
+  "edits": [
+    {
+      "file": "README.md",
+      "old_string": "<p>To get started with DocuSign REST API you need to go get a free developer account on DocuSign DevCenter (<a href=\"http://www.docusign.com/devcenter\" target=\"_blank\">www.docusign.com/devcenter</a>...",
+      "new_string": "<p>To get started with DocuSign REST API you need to go get a free developer account on DocuSign DevCenter (<a href=\"https://developers.docusign.com/esign-rest-api\" target=\"_blank\">https://developers.docusign.com/esign-rest-api</a>..."
+    }
+  ]
+}

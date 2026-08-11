@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_32281",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:arial; font-size:11pt\">In this challenge you will update </span><a href=\"https://github.com/EthereumAnalysisBenchmarks/evm-analyzer-bench-suites\" style=\"text-decoration-line: none;\"><span style=\"background-color:transparent; color:rgb(17, 85, 204); font-family:arial; font-size:11pt\">Solidity Benchmark Suites for Evaluating Ethereum Virtual Machine (EVM) Code-Analysis Tools, and Code to Run them</span></a><span style=\"b",
+    "github_repo": "https://github.com/EthereumAnalysisBenchmarks/evm-analyzer-bench-suites",
+    "branch": null,
+    "commit_hash": "0c789b100b7b4738df54bd35b5da25e88878385d",
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

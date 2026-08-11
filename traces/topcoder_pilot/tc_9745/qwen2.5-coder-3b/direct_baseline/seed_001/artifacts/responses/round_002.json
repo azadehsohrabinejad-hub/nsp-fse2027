@@ -1,0 +1,10 @@
+{
+  "plan": "Remove unnecessary HTML tags",
+  "edits": [
+    {
+      "file": "index.html",
+      "old_string": "<h1><span><span>1.0. Project Overview</span></span></h1>",
+      "new_string": "<h1>Project Overview</h1>"
+    }
+  ]
+}

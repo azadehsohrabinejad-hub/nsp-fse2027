@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_7670",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<h2><span style=\"color:rgb(255, 0, 0)\">Competition Task Overview</span></h2>\n\n<p>This challenge is for the build and design of a 3-tier web application deployed into the AWS cloud.&nbsp; The purpose o...",
+    "github_repo": "https://github.com/BurntSushi/nfldb",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

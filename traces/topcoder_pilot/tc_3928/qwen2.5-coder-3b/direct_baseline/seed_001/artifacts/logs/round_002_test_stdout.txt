@@ -1,0 +1,120 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.7, pytest-9.1.1, pluggy-1.6.0
+rootdir: D:\raz\razieh\data\nsp_tasks\tc_3928\workspace
+plugins: anyio-4.12.0, dash-3.3.0
+collected 482 items / 10 errors
+
+=================================== ERRORS ====================================
+_______________ ERROR collecting tests/cluster/test_cluster.py ________________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_3928\workspace\tests\cluster\test_cluster.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\cluster\test_cluster.py:4: in <module>
+    from twilio.rest import Client
+E   ModuleNotFoundError: No module named 'twilio'
+_______________ ERROR collecting tests/cluster/test_webhook.py ________________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_3928\workspace\tests\cluster\test_webhook.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\cluster\test_webhook.py:4: in <module>
+    from twilio.request_validator import RequestValidator
+E   ModuleNotFoundError: No module named 'twilio'
+______________ ERROR collecting tests/unit/base/test_version.py _______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_3928\workspace\tests\unit\base\test_version.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\unit\base\test_version.py:4: in <module>
+    import aiounittest
+E   ModuleNotFoundError: No module named 'aiounittest'
+_________ ERROR collecting tests/unit/http/test_async_http_client.py __________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_3928\workspace\tests\unit\http\test_async_http_client.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\unit\http\test_async_http_client.py:1: in <module>
+    import aiounittest
+E   ModuleNotFoundError: No module named 'aiounittest'
+____________ ERROR collecting tests/unit/http/test_http_client.py _____________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_3928\workspace\tests\unit\http\test_http_client.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\unit\http\test_http_client.py:6: in <module>
+    from mock import Mock, patch
+E   ModuleNotFoundError: No module named 'mock'
+_________ ERROR collecting tests/unit/http/test_validation_client.py __________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_3928\workspace\tests\unit\http\test_validation_client.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\unit\http\test_validation_client.py:5: in <module>
+    from mock import patch, Mock
+E   ModuleNotFoundError: No module named 'mock'
+__________ ERROR collecting tests/unit/jwt/test_client_validation.py __________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_3928\workspace\tests\unit\jwt\test_client_validation.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\unit\jwt\test_client_validation.py:4: in <module>
+    from cryptography.hazmat.backends import default_backend
+E   ModuleNotFoundError: No module named 'cryptography'
+_________________ ERROR collecting tests/unit/jwt/test_jwt.py _________________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_3928\workspace\tests\unit\jwt\test_jwt.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\unit\jwt\test_jwt.py:5: in <module>
+    from mock import patch
+E   ModuleNotFoundError: No module named 'mock'
+_______________ ERROR collecting tests/unit/rest/test_client.py _______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_3928\workspace\tests\unit\rest\test_client.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\unit\rest\test_client.py:3: in <module>
+    import aiounittest
+E   ModuleNotFoundError: No module named 'aiounittest'
+____________ ERROR collecting tests/unit/test_request_validator.py ____________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_3928\workspace\tests\unit\test_request_validator.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\unit\test_request_validator.py:4: in <module>
+    from django.conf import settings
+E   ModuleNotFoundError: No module named 'django'
+=========================== short test summary info ===========================
+ERROR tests/cluster/test_cluster.py
+ERROR tests/cluster/test_webhook.py
+ERROR tests/unit/base/test_version.py
+ERROR tests/unit/http/test_async_http_client.py
+ERROR tests/unit/http/test_http_client.py
+ERROR tests/unit/http/test_validation_client.py
+ERROR tests/unit/jwt/test_client_validation.py
+ERROR tests/unit/jwt/test_jwt.py
+ERROR tests/unit/rest/test_client.py
+ERROR tests/unit/test_request_validator.py
+!!!!!!!!!!!!!!!!!! Interrupted: 10 errors during collection !!!!!!!!!!!!!!!!!!!
+============================= 10 errors in 3.23s ==============================

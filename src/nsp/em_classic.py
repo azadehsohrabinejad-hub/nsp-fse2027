@@ -140,17 +140,16 @@ def run_classical_em(data_dir, state_dim=2, obs_dim=21, epochs=30):
     return A, C, history
 
 if __name__ == "__main__":
-    # Test on Synthetic Data to verify parameter recovery
-    synth_dir = r"D:\raz\razieh\data\synthetic_sequences"
-    A_true = [[0.9, 0.1], [-0.1, 0.9]]
+    # Change path to the EXTRACTED sequences
+    synth_dir = r"D:\raz\razieh\data\nsp_pilot_sequences"
+    
+    A_true = [[0.9, 0.1], [-0.1, 0.9]] # Only for reference
     
     A_learned, C_learned, hist = run_classical_em(synth_dir, epochs=30)
     
-    print("\n--- EM Results ---")
+    print("\n--- EM Results on Real Pilot Data ---")
     print("Learned Transition Matrix (A):")
     print(A_learned.numpy())
-    print("\nTrue Transition Matrix (A_true):")
-    print(A_true)
     
     ll_increase = hist[-1]["log_likelihood"] - hist[0]["log_likelihood"]
     print(f"\nTotal LL Increase: {ll_increase:.4f}")
