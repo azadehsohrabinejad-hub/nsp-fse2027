@@ -1,0 +1,10 @@
+{
+  "plan": "Replace multiplication with addition",
+  "edits": [
+    {
+      "file": "src/calculator.py",
+      "old_string": "return a * b",
+      "new_string": "return a + b"
+    }
+  ]
+}
