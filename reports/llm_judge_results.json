@@ -1,0 +1,362 @@
+[
+    {
+        "run_id": "nsp_smoke_test_001__gpt-4o-mini__direct_baseline__seed_001",
+        "task_id": "nsp_smoke_test_001",
+        "judge_score": 1.0,
+        "judge_reason": "The patched code correctly changes the operation from multiplication to addition, fixing the described bug without introducing any new issues."
+    },
+    {
+        "run_id": "nsp_smoke_test_001__llama-3.1-70b__direct_baseline__seed_001",
+        "task_id": "nsp_smoke_test_001",
+        "judge_score": 0.0,
+        "judge_reason": "No patch was applied, so the bug remains unfixed and the function still multiplies instead of adding."
+    },
+    {
+        "run_id": "nsp_smoke_test_001__llama-3.3-70b__direct_baseline__seed_001",
+        "task_id": "nsp_smoke_test_001",
+        "judge_score": 0.0,
+        "judge_reason": "No patch was applied, so the bug remains unfixed. The function still multiplies instead of adding, which does not address the task description."
+    },
+    {
+        "run_id": "nsp_smoke_test_001__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "nsp_smoke_test_001",
+        "judge_score": 1.0,
+        "judge_reason": "The patched code correctly changes the operation from multiplication to addition, fixing the described bug without introducing any new issues."
+    },
+    {
+        "run_id": "tc_10081__gpt-4o-mini__direct_baseline__seed_001",
+        "task_id": "tc_10081",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not apply any fix to the buggy code, leaving the issue unresolved. Therefore, it does not semantically fix the bug."
+    },
+    {
+        "run_id": "tc_10081__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_10081",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not contain any changes compared to the buggy code, meaning it does not address the issue or provide any fixes. Therefore, it fails to semantically correct the problem."
+    },
+    {
+        "run_id": "tc_10115__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_10115",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not contain any changes compared to the buggy code, meaning it does not address the issue or fix the tests that are failing. Therefore, it is semantically incorrect."
+    },
+    {
+        "run_id": "tc_10167__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_10167",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not contain any changes compared to the buggy code, which means it does not address the issue or fix the tests that are currently failing."
+    },
+    {
+        "run_id": "tc_10255__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_10255",
+        "judge_score": 0.8,
+        "judge_reason": "The patch improves the semantic clarity of the text by completing the sentence about the platform's functionality. However, it does not address the underlying issue of the tests failing, which may not be related to the text itself. Therefore, while the patch enhances the content, it does not fully resolve the task's requirements."
+    },
+    {
+        "run_id": "tc_10297__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_10297",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not contain any changes compared to the buggy code, meaning it does not address the issue or fix the tests that are failing."
+    },
+    {
+        "run_id": "tc_10310__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_10310",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_10327__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_10327",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not contain any changes or fixes to address the failing tests or the underlying issue described in the task. It appears to be identical to the buggy code, thus failing to provide any semantic correction."
+    },
+    {
+        "run_id": "tc_10357__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_10357",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes, thus failing to semantically correct the problem."
+    },
+    {
+        "run_id": "tc_10424__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_10424",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_10453__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_10453",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not contain any changes compared to the buggy code, meaning it does not address the issue described in the task. Therefore, it fails to provide a semantic fix."
+    },
+    {
+        "run_id": "tc_10516__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_10516",
+        "judge_score": 0.8,
+        "judge_reason": "The patched code corrects a grammatical error by changing 'challenge' to 'challenges' and fixes the quotation marks around 'Language Translation'. However, it does not address the underlying issue causing the tests to fail, which is not specified in the provided context."
+    },
+    {
+        "run_id": "tc_10555__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_10555",
+        "judge_score": 0.5,
+        "judge_reason": "The patch corrects a grammatical error ('challenge' to 'challenges') and fixes the quotation marks around 'Language Translation', which improves clarity. However, it does not address the underlying issue of failing tests, as no specific changes to the code logic or functionality are made. Therefore, while it improves the text, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_10605__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_10605",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_12707__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_12707",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address the issue described in the task. No changes were made to fix the failing tests or provide any edits, thus it does not semantically fix the bug."
+    },
+    {
+        "run_id": "tc_12738__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_12738",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address the issue described in the task. No changes were made to fix the failing tests or provide any edits."
+    },
+    {
+        "run_id": "tc_12774__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_12774",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not contain any changes or fixes to address the failing tests or the lack of explicit error messages. It is identical to the buggy code, thus failing to resolve the described issue."
+    },
+    {
+        "run_id": "tc_12906__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_12906",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_13023__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13023",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_13218__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13218",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code, indicating that no changes were made to address the issue. Therefore, it does not semantically fix the bug."
+    },
+    {
+        "run_id": "tc_13236__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13236",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_13247__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13247",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug."
+    },
+    {
+        "run_id": "tc_13422__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13422",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_13483__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13483",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address the issue described in the task. No changes were made to fix the failing tests or provide any edits."
+    },
+    {
+        "run_id": "tc_13499__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13499",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address the issue described in the task. No changes were made to fix the failing tests or provide any edits, thus it does not semantically fix the bug."
+    },
+    {
+        "run_id": "tc_13505__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13505",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not contain any changes or fixes to address the failing tests. It is identical to the buggy code, thus failing to resolve the issue."
+    },
+    {
+        "run_id": "tc_13513__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13513",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described in the task."
+    },
+    {
+        "run_id": "tc_13586__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13586",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_13596__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13596",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address the issue described in the task. No changes were made to fix the failing tests or provide any edits."
+    },
+    {
+        "run_id": "tc_13598__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13598",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not contain any changes or fixes to address the issue described in the task. It is identical to the buggy code, failing to provide any edits or solutions."
+    },
+    {
+        "run_id": "tc_13599__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13599",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_13600__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13600",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not contain any changes or fixes to address the failing tests or the underlying issue described in the task. It is identical to the buggy code, thus failing to provide any semantic correction."
+    },
+    {
+        "run_id": "tc_13627__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13627",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_13747__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13747",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address the issue described in the task. No changes were made to fix the failing tests or provide any edits."
+    },
+    {
+        "run_id": "tc_13748__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13748",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not contain any changes compared to the buggy code, meaning it does not address the issue or provide any fixes. Therefore, it fails to semantically correct the problem."
+    },
+    {
+        "run_id": "tc_13832__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13832",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_13833__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_13833",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_14065__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_14065",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_14843__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_14843",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not contain any changes or fixes to address the failing tests. It is identical to the buggy code, thus failing to resolve the issue."
+    },
+    {
+        "run_id": "tc_14852__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_14852",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described in the task."
+    },
+    {
+        "run_id": "tc_14861__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_14861",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug."
+    },
+    {
+        "run_id": "tc_15161__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_15161",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address the issue described. No changes were made to fix the failing tests."
+    },
+    {
+        "run_id": "tc_15218__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_15218",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address the issue described. No changes were made to fix the failing tests."
+    },
+    {
+        "run_id": "tc_15219__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_15219",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_15294__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_15294",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_15317__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_15317",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug."
+    },
+    {
+        "run_id": "tc_15318__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_15318",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address the issue described in the task. No changes were made to fix the failing tests or provide any edits."
+    },
+    {
+        "run_id": "tc_3928__gpt-4o-mini__direct_baseline__seed_001",
+        "task_id": "tc_3928",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not apply any fix to the buggy code, leaving the issue unresolved. No changes were made to address the deprecation warning regarding date parsing."
+    },
+    {
+        "run_id": "tc_3928__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_3928",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_3928_twilio__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_3928_twilio",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is empty and does not contain any changes or fixes, thus it does not address the integration issue with the DocuSign helper library."
+    },
+    {
+        "run_id": "tc_7670__gpt-4o-mini__direct_baseline__seed_001",
+        "task_id": "tc_7670",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not apply any fix to the buggy code, leaving the issue unresolved. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_7670__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_7670",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_8853__gpt-4o-mini__direct_baseline__seed_001",
+        "task_id": "tc_8853",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not apply any fix to the buggy code, leaving the issue unresolved. Therefore, it does not semantically fix the bug."
+    },
+    {
+        "run_id": "tc_8853__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_8853",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code, indicating no changes were made to address the issue. Therefore, it does not semantically fix the bug."
+    },
+    {
+        "run_id": "tc_9745__gpt-4o-mini__direct_baseline__seed_001",
+        "task_id": "tc_9745",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code does not apply any fix to the buggy code, leaving the issue unresolved. Therefore, it does not semantically fix the bug described."
+    },
+    {
+        "run_id": "tc_9745__qwen2.5-coder-3b__direct_baseline__seed_001",
+        "task_id": "tc_9745",
+        "judge_score": 0.0,
+        "judge_reason": "The patched code is identical to the buggy code and does not address any issues or provide any fixes, thus failing to resolve the described problem."
+    }
+]
