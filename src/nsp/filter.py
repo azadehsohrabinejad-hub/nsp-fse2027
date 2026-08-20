@@ -99,7 +99,7 @@ if __name__ == "__main__":
     Y = torch.tensor(data["Y"], dtype=torch.float32)
     
     # 2. Initialize Model and Filter
-    model = NSPModel(state_dim=2, obs_dim=21)
+    model = NSPModel(state_dim=4, obs_dim=21)
     nsp_filter = NSPFilter(model)
     
     # 3. Run Filter

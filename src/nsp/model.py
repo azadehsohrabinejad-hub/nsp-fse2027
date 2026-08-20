@@ -7,7 +7,7 @@ class NSPModel(nn.Module):
     z_t = A * z_{t-1} + w_t  (Hidden state transition)
     y_t = C * z_t + v_t      (Observation generation)
     """
-    def __init__(self, state_dim=2, obs_dim=21):
+    def __init__(self, state_dim=4, obs_dim=21):
         super(NSPModel, self).__init__()
         self.state_dim = state_dim
         self.obs_dim = obs_dim
@@ -39,9 +39,9 @@ class NSPModel(nn.Module):
 # Test the model definition
 if __name__ == "__main__":
     print("Initializing NSP Model...")
-    model = NSPModel(state_dim=2, obs_dim=21)
+    model = NSPModel(state_dim=4, obs_dim=21)
     
-    # Create a dummy hidden state (batch_size=1, state_dim=2)
+    # Create a dummy hidden state (batch_size=1, state_dim=4)
     z_prev = torch.tensor([[0.5, -0.5]], dtype=torch.float32)
     
     # Predict next state

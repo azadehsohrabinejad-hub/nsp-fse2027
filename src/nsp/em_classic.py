@@ -3,7 +3,7 @@ import os
 import json
 import numpy as np
 
-def run_classical_em(data_dir, state_dim=2, obs_dim=21, epochs=30):
+def run_classical_em(data_dir, state_dim=4, obs_dim=21, epochs=30):
     print(f"\n=== Starting Classical EM on {data_dir} ===")
     
     # 1. Load Data

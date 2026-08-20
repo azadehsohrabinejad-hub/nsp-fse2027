@@ -6,7 +6,7 @@ from src.nsp.model import NSPModel
 from src.nsp.filter import NSPFilter
 
 # 1. Load all synthetic sequences
-synth_dir = r"D:\raz\razieh\data\nsp_sequences"
+synth_dir = os.path.join(os.path.dirname(__file__), "..", "..", "data", "synthetic_sequences")
 print("Loading synthetic data...")
 sequences = []
 for file in os.listdir(synth_dir):
