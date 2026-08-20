@@ -1,0 +1,7 @@
+Task: The scope of this challenge is create an asynchronous API for the <a href="https://github.com/b-mueller/mythril">Mythril</a> security analysis tool. The API should allow users to submit Ethereum bytec...
+
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.

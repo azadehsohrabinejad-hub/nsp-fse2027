@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct the syntax errors in the test files",
+  "edits": [
+    {
+      "file": "tests/test_api_gateway.py",
+      "old_string": "def test_create_api_gateway(api_client):\n    response = api_client.post('/api/gateway', json={'name': 'test-api'})\n    assert response.status_code == 201\n    assert response.json()['name'] == 'test-api'",
+      "new_string": "def test_create_api_gateway(api_client):\n    response = api_client.post('/api/gateway', json={'name': 'test-api'})\n    assert response.status_code == 201\n    assert response.json()['name'] == 'test-api'"
+    }
+  ]
+}

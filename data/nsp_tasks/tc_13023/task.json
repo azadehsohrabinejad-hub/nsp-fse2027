@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_13023",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<p><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:calibri; font-size:12pt\"><em>NOTE - This is a repost of an earlier challenge with reduced scope. The challenge will be jud...",
+    "github_repo": "https://github.com/ActianCorp/dbmv",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

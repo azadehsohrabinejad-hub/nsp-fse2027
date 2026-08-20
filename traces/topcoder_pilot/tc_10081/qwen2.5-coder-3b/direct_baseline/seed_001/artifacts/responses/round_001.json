@@ -1,10 +1,10 @@
 {
-  "plan": "Remove or correct the empty code block",
+  "plan": "Identify and correct the logic in the test function",
   "edits": [
     {
-      "file": "relative/path/to/file.py",
-      "old_string": "",
-      "new_string": "// Add your code here"
+      "file": "tests/test_function.py",
+      "old_string": "assert result == expected_value",
+      "new_string": "self.assertEqual(result, expected_value)"
     }
   ]
 }

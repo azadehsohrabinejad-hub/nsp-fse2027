@@ -1,0 +1,7 @@
+Task: <p><span>Our last series of IBM Watson challenge we explored&nbsp;<span>Tone Analyzer</span>. This week&nbsp;it&#39;s&nbsp;time for another API &quot;Language Translation&quot; from IBM. Again, this i...
+
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.

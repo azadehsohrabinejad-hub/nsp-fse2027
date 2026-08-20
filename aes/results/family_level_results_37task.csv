@@ -1,0 +1,6 @@
+mutation_family,tasks,runs,pass,pass_rate
+compensating_dual_mutation,4,64,24,0.375
+false_localization_trap,12,192,16,0.0833
+incomplete_patch_trap,8,128,12,0.0938
+semantic_shadow_mutation,9,144,6,0.0417
+temporal_state_inconsistency,4,64,14,0.2188

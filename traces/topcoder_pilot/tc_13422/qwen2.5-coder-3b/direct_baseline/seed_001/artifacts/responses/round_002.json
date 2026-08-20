@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct the error in the test setup",
+  "edits": [
+    {
+      "file": "tests/test_pseudo_vet.py",
+      "old_string": "assert result == expected_result",
+      "new_string": "self.assertEqual(result, expected_result)"
+    }
+  ]
+}

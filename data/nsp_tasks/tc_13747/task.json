@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_13747",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> is a security analysis tool for <a href=\"https://en.wikipedia.org/wiki/Ethereum\">Ethereum</a> smart contracts, written in Python. It uses the...",
+    "github_repo": "https://github.com/ConsenSys/mythril",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct errors in the code responsible for differential privacy masking",
+  "edits": [
+    {
+      "file": "src/differential_privacy.py",
+      "old_string": "def mask_data(data, epsilon, delta):",
+      "new_string": "def mask_data(data, epsilon, delta):\n    if not isinstance(epsilon, (int, float)) or not isinstance(delta, (int, float)):\n        raise ValueError('Epsilon and Delta must be numbers.')\n\n    # Existing code for masking data"
+    }
+  ]
+}

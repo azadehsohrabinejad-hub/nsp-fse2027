@@ -1,0 +1,7 @@
+Task: <a href="https://github.com/ConsenSys/mythril">Mythril</a> is a security analysis tool for <a href="https://en.wikipedia.org/wiki/Ethereum">Ethereum</a> smart contracts, written in Python. It uses the...
+
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.

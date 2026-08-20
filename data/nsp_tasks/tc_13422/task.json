@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_13422",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<p style=\"text-align:justify\"><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:arial; font-size:11pt\">Welcome to the &ldquo;</span><strong>PseudoVet - Convert Aging Algorithm...",
+    "github_repo": "https://github.com/topcoderinc/va-pseudovet",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

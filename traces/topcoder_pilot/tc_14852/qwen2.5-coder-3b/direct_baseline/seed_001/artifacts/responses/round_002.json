@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct errors in the dataset masking function",
+  "edits": [
+    {
+      "file": "src/dataset_masking.py",
+      "old_string": "def mask_data(data, epsilon=1.0):\n    return [x + epsilon for x in data]",
+      "new_string": "def mask_data(data, epsilon=1.0):\n    return [x + epsilon * np.random.normal(0, 1) for x in data]"
+    }
+  ]
+}

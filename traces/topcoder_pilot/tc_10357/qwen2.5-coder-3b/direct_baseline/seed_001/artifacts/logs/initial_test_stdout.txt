@@ -1,0 +1,226 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.7, pytest-9.1.1, pluggy-1.6.0
+rootdir: D:\raz\razieh\data\nsp_tasks\tc_10357\workspace
+plugins: anyio-4.12.0, dash-3.3.0
+collected 0 items / 18 errors
+
+=================================== ERRORS ====================================
+___________ ERROR collecting revolv/base/tests/test_integration.py ____________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\base\tests\test_integration.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\base\tests\test_integration.py:1: in <module>
+    from bs4 import BeautifulSoup
+E   ModuleNotFoundError: No module named 'bs4'
+____________ ERROR collecting revolv/base/tests/test_management.py ____________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\base\tests\test_management.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\base\tests\test_management.py:1: in <module>
+    from django.contrib.auth.models import User
+E   ModuleNotFoundError: No module named 'django'
+______________ ERROR collecting revolv/base/tests/test_models.py ______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\base\tests\test_models.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\base\tests\test_models.py:1: in <module>
+    from django.contrib.auth.models import User
+E   ModuleNotFoundError: No module named 'django'
+______________ ERROR collecting revolv/base/tests/test_users.py _______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\base\tests\test_users.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\base\tests\test_users.py:1: in <module>
+    from django.test import TestCase
+E   ModuleNotFoundError: No module named 'django'
+______________ ERROR collecting revolv/base/tests/test_utils.py _______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\base\tests\test_utils.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\base\tests\test_utils.py:1: in <module>
+    from django.test import TestCase
+E   ModuleNotFoundError: No module named 'django'
+______________ ERROR collecting revolv/base/tests/test_views.py _______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\base\tests\test_views.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\base\tests\test_views.py:1: in <module>
+    from django.contrib.auth.models import User
+E   ModuleNotFoundError: No module named 'django'
+______________ ERROR collecting revolv/lib/tests/test_mailer.py _______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\lib\tests\test_mailer.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\lib\tests\test_mailer.py:3: in <module>
+    import mock
+E   ModuleNotFoundError: No module named 'mock'
+_ ERROR collecting revolv/payments/tests/forms/test_credit_card_donation_form.py _
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\python.py:508: in importtestmodule
+    mod = import_path(
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1331: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:935: in _load_unlocked
+    ???
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:179: in exec_module
+    source_stat, co = _rewrite_test(fn, self.config)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:348: in _rewrite_test
+    tree = ast.parse(source, filename=strfn)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\ast.py:50: in parse
+    return compile(source, filename, mode, flags,
+E     File "D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\payments\tests\forms\test_credit_card_donation_form.py", line 21
+E       print cc_form.errors
+E       ^^^^^^^^^^^^^^^^^^^^
+E   SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+_______ ERROR collecting revolv/payments/tests/lib/test_instruments.py ________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\payments\tests\lib\test_instruments.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\payments\tests\lib\test_instruments.py:1: in <module>
+    from django.test import TestCase
+E   ModuleNotFoundError: No module named 'django'
+________ ERROR collecting revolv/payments/tests/models/test_payment.py ________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\payments\tests\models\test_payment.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\payments\tests\models\test_payment.py:1: in <module>
+    import factory
+E   ModuleNotFoundError: No module named 'factory'
+_____ ERROR collecting revolv/payments/tests/models/test_payment_type.py ______
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\payments\tests\models\test_payment_type.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\payments\tests\models\test_payment_type.py:1: in <module>
+    from django.test import TestCase
+E   ModuleNotFoundError: No module named 'django'
+___ ERROR collecting revolv/payments/tests/services/test_payment_service.py ___
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\payments\tests\services\test_payment_service.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\payments\tests\services\test_payment_service.py:1: in <module>
+    import mock
+E   ModuleNotFoundError: No module named 'mock'
+__________ ERROR collecting revolv/project/tests/test_integration.py __________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\project\tests\test_integration.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\project\tests\test_integration.py:3: in <module>
+    import mock
+E   ModuleNotFoundError: No module named 'mock'
+____________ ERROR collecting revolv/project/tests/test_models.py _____________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\project\tests\test_models.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\project\tests\test_models.py:5: in <module>
+    from django.test import TestCase
+E   ModuleNotFoundError: No module named 'django'
+_____________ ERROR collecting revolv/project/tests/test_stats.py _____________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\project\tests\test_stats.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\project\tests\test_stats.py:1: in <module>
+    from django.test import TestCase
+E   ModuleNotFoundError: No module named 'django'
+_____________ ERROR collecting revolv/project/tests/test_tasks.py _____________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\project\tests\test_tasks.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\project\tests\test_tasks.py:1: in <module>
+    from django.test import TestCase
+E   ModuleNotFoundError: No module named 'django'
+_____________ ERROR collecting revolv/project/tests/test_views.py _____________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\project\tests\test_views.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\project\tests\test_views.py:1: in <module>
+    from django.test import TestCase
+E   ModuleNotFoundError: No module named 'django'
+__________ ERROR collecting revolv/revolv_cms/tests/test_general.py ___________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_10357\workspace\revolv\revolv_cms\tests\test_general.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+revolv\revolv_cms\tests\test_general.py:1: in <module>
+    from django.test.utils import override_settings
+E   ModuleNotFoundError: No module named 'django'
+=========================== short test summary info ===========================
+ERROR revolv/base/tests/test_integration.py
+ERROR revolv/base/tests/test_management.py
+ERROR revolv/base/tests/test_models.py
+ERROR revolv/base/tests/test_users.py
+ERROR revolv/base/tests/test_utils.py
+ERROR revolv/base/tests/test_views.py
+ERROR revolv/lib/tests/test_mailer.py
+ERROR revolv/payments/tests/forms/test_credit_card_donation_form.py
+ERROR revolv/payments/tests/lib/test_instruments.py
+ERROR revolv/payments/tests/models/test_payment.py
+ERROR revolv/payments/tests/models/test_payment_type.py
+ERROR revolv/payments/tests/services/test_payment_service.py
+ERROR revolv/project/tests/test_integration.py
+ERROR revolv/project/tests/test_models.py
+ERROR revolv/project/tests/test_stats.py
+ERROR revolv/project/tests/test_tasks.py
+ERROR revolv/project/tests/test_views.py
+ERROR revolv/revolv_cms/tests/test_general.py
+!!!!!!!!!!!!!!!!!! Interrupted: 18 errors during collection !!!!!!!!!!!!!!!!!!!
+============================= 18 errors in 0.69s ==============================

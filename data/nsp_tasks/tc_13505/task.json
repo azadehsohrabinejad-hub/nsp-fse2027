@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_13505",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<a href=\"https://github.com/ConsenSys/mythril\">Mythril</a> has an exploration feature for searching and analyzing smart contracts on the Ethereum blockchain:<br />\n<a href=\"https://github.com/ConsenSy...",
+    "github_repo": "https://github.com/ConsenSys/mythril",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

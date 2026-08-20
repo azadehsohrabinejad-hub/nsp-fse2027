@@ -1,0 +1,7 @@
+Task: <p><span style="background-color:transparent; color:rgb(0, 0, 0); font-family:arial; font-size:11pt">We have a large manufacture of telecommunication equipment that writes all their firmware in ANSI C...
+
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.

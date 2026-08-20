@@ -1,0 +1,65 @@
+{
+  "model": "gpt-4o-mini",
+  "started_utc": "2026-08-19T14:07:05+00:00",
+  "finished_utc": "2026-08-19T14:07:55+00:00",
+  "tasks_dir": "/Users/rs8607/Downloads/scripts/data/nsp_tasks",
+  "traces_dir": "/Users/rs8607/Downloads/traces",
+  "run_setup_commands": true,
+  "runs": [
+    {
+      "task_id": "tc_3928",
+      "status": "completed",
+      "started_utc": "2026-08-19T14:07:05+00:00",
+      "trace_path": "/Users/rs8607/Downloads/traces/topcoder_pilot/tc_3928/gpt-4o-mini/direct_baseline/seed_001/trace.json",
+      "run_id": "tc_3928__gpt-4o-mini__direct_baseline__seed_001",
+      "actual_rounds": 3,
+      "all_tests_passed": false,
+      "elapsed_seconds": 15.5,
+      "finished_utc": "2026-08-19T14:07:21+00:00"
+    },
+    {
+      "task_id": "tc_7670",
+      "status": "completed",
+      "started_utc": "2026-08-19T14:07:21+00:00",
+      "trace_path": "/Users/rs8607/Downloads/traces/topcoder_pilot/tc_7670/gpt-4o-mini/direct_baseline/seed_001/trace.json",
+      "run_id": "tc_7670__gpt-4o-mini__direct_baseline__seed_001",
+      "actual_rounds": 3,
+      "all_tests_passed": false,
+      "elapsed_seconds": 8.9,
+      "finished_utc": "2026-08-19T14:07:30+00:00"
+    },
+    {
+      "task_id": "tc_8853",
+      "status": "completed",
+      "started_utc": "2026-08-19T14:07:30+00:00",
+      "trace_path": "/Users/rs8607/Downloads/traces/topcoder_pilot/tc_8853/gpt-4o-mini/direct_baseline/seed_001/trace.json",
+      "run_id": "tc_8853__gpt-4o-mini__direct_baseline__seed_001",
+      "actual_rounds": 3,
+      "all_tests_passed": false,
+      "elapsed_seconds": 8.2,
+      "finished_utc": "2026-08-19T14:07:38+00:00"
+    },
+    {
+      "task_id": "tc_9745",
+      "status": "completed",
+      "started_utc": "2026-08-19T14:07:38+00:00",
+      "trace_path": "/Users/rs8607/Downloads/traces/topcoder_pilot/tc_9745/gpt-4o-mini/direct_baseline/seed_001/trace.json",
+      "run_id": "tc_9745__gpt-4o-mini__direct_baseline__seed_001",
+      "actual_rounds": 3,
+      "all_tests_passed": false,
+      "elapsed_seconds": 8.4,
+      "finished_utc": "2026-08-19T14:07:46+00:00"
+    },
+    {
+      "task_id": "tc_10081",
+      "status": "completed",
+      "started_utc": "2026-08-19T14:07:46+00:00",
+      "trace_path": "/Users/rs8607/Downloads/traces/topcoder_pilot/tc_10081/gpt-4o-mini/direct_baseline/seed_001/trace.json",
+      "run_id": "tc_10081__gpt-4o-mini__direct_baseline__seed_001",
+      "actual_rounds": 3,
+      "all_tests_passed": false,
+      "elapsed_seconds": 8.3,
+      "finished_utc": "2026-08-19T14:07:55+00:00"
+    }
+  ]
+}

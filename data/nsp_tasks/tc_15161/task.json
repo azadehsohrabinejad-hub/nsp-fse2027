@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_15161",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<p><strong>Challenge Objectives</strong></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>\n\t<p><em>Python Rest API development using Flask framework</em></p>\n\t</li>\n\t<li>\n\t<p><em>Implement CRUDL endpoints for minerals c...",
+    "github_repo": "https://github.com/google/styleguide",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

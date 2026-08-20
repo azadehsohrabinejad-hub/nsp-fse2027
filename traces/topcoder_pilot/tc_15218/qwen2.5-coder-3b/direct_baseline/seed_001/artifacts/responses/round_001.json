@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and fix the issue causing tests to fail without printing an error",
+  "edits": [
+    {
+      "file": "tests/test_minerals.py",
+      "old_string": "assert response.status_code == 200",
+      "new_string": "assert response.status_code == 200, f'Expected status code 200 but got {response.status_code}'"
+    }
+  ]
+}

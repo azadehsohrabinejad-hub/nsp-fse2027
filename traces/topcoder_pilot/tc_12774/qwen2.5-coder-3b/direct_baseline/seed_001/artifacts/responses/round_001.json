@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and fix the issue in the firmware code",
+  "edits": [
+    {
+      "file": "src/firmware.c",
+      "old_string": "// TODO: Add error handling for file operations",
+      "new_string": "if (file == NULL) {\n    fprintf(stderr, \"Error opening file\\n\");\n    return -1;\n}\n"
+    }
+  ]
+}

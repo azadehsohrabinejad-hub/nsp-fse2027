@@ -1,0 +1,7 @@
+Task: <p><span style="font-size:12px"><span style="background-color:transparent; color:rgb(0, 0, 0); font-family:arial">We need help from the TopCoder community to implement Part 2 of the DBMV schema conver...
+
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.

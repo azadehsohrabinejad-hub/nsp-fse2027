@@ -1,0 +1,10 @@
+Task: <div class="previewMask">
+<h2><span>Overview</span></h2>
+
+<p><span>Our last series of IBM Watson challenge we explored&nbsp;<span>Tone Analyzer</span>. This week&nbsp;it&#39;s&nbsp;time for another AP...
+
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.

@@ -117,4 +117,4 @@ ERROR tests/unit/jwt/test_jwt.py
 ERROR tests/unit/rest/test_client.py
 ERROR tests/unit/test_request_validator.py
 !!!!!!!!!!!!!!!!!! Interrupted: 10 errors during collection !!!!!!!!!!!!!!!!!!!
-============================= 10 errors in 3.23s ==============================
+============================= 10 errors in 1.43s ==============================

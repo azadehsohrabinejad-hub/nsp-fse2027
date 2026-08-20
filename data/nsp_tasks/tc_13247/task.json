@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_13247",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<span style=\"color:#000000\"><span style=\"font-size:14px\">Unstructured text mining is the key the future of data science.&nbsp; Many data sources provide valuable data in unstructured and semi-structur...",
+    "github_repo": "https://github.com/yuanxu-li/html-table-extractor",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

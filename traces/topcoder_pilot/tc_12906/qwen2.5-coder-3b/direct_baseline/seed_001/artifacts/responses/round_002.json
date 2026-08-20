@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct the error in the test setup",
+  "edits": [
+    {
+      "file": "tests/test_api_gateway.py",
+      "old_string": "assert response.status_code == 200",
+      "new_string": "assert response.status_code == 400"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.7, pytest-9.1.1, pluggy-1.6.0
+rootdir: D:\raz\razieh\data\nsp_tasks\tc_15219\workspace
+configfile: pyproject.toml
+plugins: anyio-4.12.0, dash-3.3.0
+collected 0 items / 1 error
+
+=================================== ERRORS ====================================
+_______________________ ERROR collecting pint/testsuite _______________________
+<frozen importlib._bootstrap_external>:1026: in exec_module
+    ???
+<frozen importlib._bootstrap>:488: in _call_with_frames_removed
+    ???
+pint\__init__.py:19: in <module>
+    from .delegates.formatter._format_helpers import formatter
+pint\delegates\__init__.py:13: in <module>
+    from . import txt_defparser
+pint\delegates\txt_defparser\__init__.py:13: in <module>
+    from .defparser import DefParser
+pint\delegates\txt_defparser\defparser.py:6: in <module>
+    import flexcache as fc
+E   ModuleNotFoundError: No module named 'flexcache'
+=========================== short test summary info ===========================
+ERROR pint/testsuite - ModuleNotFoundError: No module named 'flexcache'
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+============================== 1 error in 0.31s ===============================

@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_13218",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<h1><span style=\"font-size:12px\"><span style=\"font-family:tahoma,geneva,sans-serif\"><span style=\"color:rgb(55, 55, 59)\">This challenge is responsible for implementing the following two intents defined...",
+    "github_repo": "https://github.com/awslabs/aws-lex-web-ui",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

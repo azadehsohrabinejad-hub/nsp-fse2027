@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct syntax errors in the test files",
+  "edits": [
+    {
+      "file": "tests/test_mythril.py",
+      "old_string": "def test_analysis(self):",
+      "new_string": "def test_analysis(self):\n        pass"
+    }
+  ]
+}

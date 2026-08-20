@@ -1,0 +1,22 @@
+{
+  "schema_name": "NSP Trace",
+  "version": "1.0.0",
+  "description": "A Structured Round-Level Trace Standard for Semantic Drift Analysis",
+  "required_top_level": [
+    "schema", "run", "task", "model", "strategy", 
+    "environment", "initial_state", "rounds", "final_state", "integrity"
+  ],
+  "required_round_level": [
+    "round_index", "context", "prompt", "response", 
+    "edits", "execution", "observation"
+  ],
+  "observation_vector_features": [
+    "pass_rate", "delta_pass_rate", "failing_test_count", 
+    "new_failure_count", "resolved_failure_count", "edit_count", 
+    "files_touched", "lines_added", "lines_removed", 
+    "repeated_file_edit_ratio", "reverted_edit_ratio", 
+    "retrieved_file_count", "context_tokens", "context_truncated", 
+    "input_tokens", "output_tokens", "latency_seconds", 
+    "invalid_patch", "build_broken", "test_regression", "scope_expansion"
+  ]
+}

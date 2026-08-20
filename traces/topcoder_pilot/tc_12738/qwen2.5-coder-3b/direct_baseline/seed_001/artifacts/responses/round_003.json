@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct the error in the firmware code",
+  "edits": [
+    {
+      "file": "src/firmware.py",
+      "old_string": "return a * b",
+      "new_string": "return a + b"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.7, pytest-9.1.1, pluggy-1.6.0
+rootdir: D:\raz\razieh\data\nsp_tasks\tc_13627\workspace
+configfile: pyproject.toml
+plugins: anyio-4.12.0, dash-3.3.0
+collected 815 items / 6 errors
+
+=================================== ERRORS ====================================
+_____________ ERROR collecting tests/analysis/abi_decode_test.py ______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13627\workspace\tests\analysis\abi_decode_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\analysis\abi_decode_test.py:3: in <module>
+    from mythril.analysis.report import Issue
+E   ModuleNotFoundError: No module named 'mythril'
+___________ ERROR collecting tests/analysis/arbitrary_jump_test.py ____________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13627\workspace\tests\analysis\arbitrary_jump_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\analysis\arbitrary_jump_test.py:3: in <module>
+    from mythril.analysis.module.modules.arbitrary_jump import (
+E   ModuleNotFoundError: No module named 'mythril'
+______________ ERROR collecting tests/cli_tests/cli_opts_test.py ______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13627\workspace\tests\cli_tests\cli_opts_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\cli_tests\cli_opts_test.py:6: in <module>
+    from mythril.interfaces.cli import main
+E   ModuleNotFoundError: No module named 'mythril'
+___________ ERROR collecting tests/instructions/extcodehash_test.py ___________
+mythril\support\signatures.py:87: in __enter__
+    self.conn = sqlite3.connect(self.path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+tests\instructions\extcodehash_test.py:13: in <module>
+    account = world_state.create_account(balance=10, address=101)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+mythril\laser\ethereum\state\world_state.py:183: in create_account
+    new_account = Account(
+mythril\laser\ethereum\state\account.py:129: in __init__
+    self.code = code or Disassembly("")
+                        ^^^^^^^^^^^^^^^
+mythril\disassembler\disassembly.py:33: in __init__
+    self.assign_bytecode(bytecode=code)
+mythril\disassembler\disassembly.py:39: in assign_bytecode
+    signatures = SignatureDB()
+                 ^^^^^^^^^^^^^
+mythril\support\signatures.py:37: in inner_wrapper
+    return f(*args, **kw)
+           ^^^^^^^^^^^^^^
+mythril\support\signatures.py:61: in __call__
+    cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+mythril\support\signatures.py:126: in __init__
+    with SQLiteDB(self.path) as cur:
+         ^^^^^^^^^^^^^^^^^^^
+mythril\support\signatures.py:89: in __enter__
+    raise sqlite3.OperationalError(f"Unable to Connect to path {self.path}")
+E   sqlite3.OperationalError: Unable to Connect to path C:\Users\Azadeh\.mythril\signatures.db
+___________ ERROR collecting tests/instructions/static_call_test.py ___________
+mythril\support\signatures.py:87: in __enter__
+    self.conn = sqlite3.connect(self.path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+tests\instructions\static_call_test.py:37: in <module>
+    Account(code=Disassembly(code="0x00"), address="0x19"),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+mythril\disassembler\disassembly.py:33: in __init__
+    self.assign_bytecode(bytecode=code)
+mythril\disassembler\disassembly.py:39: in assign_bytecode
+    signatures = SignatureDB()
+                 ^^^^^^^^^^^^^
+mythril\support\signatures.py:37: in inner_wrapper
+    return f(*args, **kw)
+           ^^^^^^^^^^^^^^
+mythril\support\signatures.py:61: in __call__
+    cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+mythril\support\signatures.py:126: in __init__
+    with SQLiteDB(self.path) as cur:
+         ^^^^^^^^^^^^^^^^^^^
+mythril\support\signatures.py:89: in __enter__
+    raise sqlite3.OperationalError(f"Unable to Connect to path {self.path}")
+E   sqlite3.OperationalError: Unable to Connect to path C:\Users\Azadeh\.mythril\signatures.db
+_____________ ERROR collecting tests/laser/strategy/beam_test.py ______________
+mythril\support\signatures.py:87: in __enter__
+    self.conn = sqlite3.connect(self.path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+tests\laser\strategy\beam_test.py:14: in <module>
+    account = world_state.create_account(balance=10, address=101)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+mythril\laser\ethereum\state\world_state.py:183: in create_account
+    new_account = Account(
+mythril\laser\ethereum\state\account.py:129: in __init__
+    self.code = code or Disassembly("")
+                        ^^^^^^^^^^^^^^^
+mythril\disassembler\disassembly.py:33: in __init__
+    self.assign_bytecode(bytecode=code)
+mythril\disassembler\disassembly.py:39: in assign_bytecode
+    signatures = SignatureDB()
+                 ^^^^^^^^^^^^^
+mythril\support\signatures.py:37: in inner_wrapper
+    return f(*args, **kw)
+           ^^^^^^^^^^^^^^
+mythril\support\signatures.py:61: in __call__
+    cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+mythril\support\signatures.py:126: in __init__
+    with SQLiteDB(self.path) as cur:
+         ^^^^^^^^^^^^^^^^^^^
+mythril\support\signatures.py:89: in __enter__
+    raise sqlite3.OperationalError(f"Unable to Connect to path {self.path}")
+E   sqlite3.OperationalError: Unable to Connect to path C:\Users\Azadeh\.mythril\signatures.db
+============================== warnings summary ===============================
+mythril\plugin\discovery.py:3
+  D:\raz\razieh\data\nsp_tasks\tc_13627\workspace\mythril\plugin\discovery.py: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\site-packages\dateutil\tz\tz.py:37
+  C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\site-packages\dateutil\tz\tz.py: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+ERROR tests/analysis/abi_decode_test.py
+ERROR tests/analysis/arbitrary_jump_test.py
+ERROR tests/cli_tests/cli_opts_test.py
+ERROR tests/instructions/extcodehash_test.py - sqlite3.OperationalError: Unab...
+ERROR tests/instructions/static_call_test.py - sqlite3.OperationalError: Unab...
+ERROR tests/laser/strategy/beam_test.py - sqlite3.OperationalError: Unable to...
+!!!!!!!!!!!!!!!!!!! Interrupted: 6 errors during collection !!!!!!!!!!!!!!!!!!!
+======================== 2 warnings, 6 errors in 3.01s ========================

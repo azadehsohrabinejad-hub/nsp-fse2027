@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct the error in the Flask application",
+  "edits": [
+    {
+      "file": "app.py",
+      "old_string": "return jsonify({'error': 'Internal Server Error'})",
+      "new_string": "return jsonify({'error': str(e)})"
+    }
+  ]
+}

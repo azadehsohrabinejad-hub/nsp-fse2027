@@ -1,0 +1,54 @@
+[1m============================= test session starts ==============================[0m
+platform darwin -- Python 3.13.2, pytest-8.3.4, pluggy-1.5.0
+rootdir: /Users/rs8607/Downloads/scripts/data/nsp_tasks/tc_7670/workspace
+plugins: langsmith-0.7.1, dash-3.2.0, anyio-4.7.0
+collected 0 items / 3 errors
+
+==================================== ERRORS ====================================
+[31m[1m_____________________ ERROR collecting tests/test_query.py _____________________[0m
+[31mImportError while importing test module '/Users/rs8607/Downloads/scripts/data/nsp_tasks/tc_7670/workspace/tests/test_query.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/opt/anaconda3/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+[1m[31mtests/test_query.py[0m:3: in <module>
+    [0m[94mimport[39;49;00m[90m [39;49;00m[04m[96mnfldb[39;49;00m[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'nfldb'[0m[0m
+[31m[1m______________________ ERROR collecting tests/test_sql.py ______________________[0m
+[31m[1m[31m/opt/anaconda3/lib/python3.13/site-packages/_pytest/python.py[0m:493: in importtestmodule
+    [0mmod = import_path([90m[39;49;00m
+[1m[31m/opt/anaconda3/lib/python3.13/site-packages/_pytest/pathlib.py[0m:587: in import_path
+    [0mimportlib.import_module(module_name)[90m[39;49;00m
+[1m[31m/opt/anaconda3/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1387: in _gcd_import
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1360: in _find_and_load
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1331: in _find_and_load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:935: in _load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/opt/anaconda3/lib/python3.13/site-packages/_pytest/assertion/rewrite.py[0m:175: in exec_module
+    [0msource_stat, co = _rewrite_test(fn, [96mself[39;49;00m.config)[90m[39;49;00m
+[1m[31m/opt/anaconda3/lib/python3.13/site-packages/_pytest/assertion/rewrite.py[0m:357: in _rewrite_test
+    [0mco = [96mcompile[39;49;00m(tree, strfn, [33m"[39;49;00m[33mexec[39;49;00m[33m"[39;49;00m, dont_inherit=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31mE     File "/Users/rs8607/Downloads/scripts/data/nsp_tasks/tc_7670/workspace/tests/test_sql.py", line 22[0m
+[1m[31mE       from nfldb.types import *  # o_0[0m
+[1m[31mE                               ^[0m
+[1m[31mE   SyntaxError: import * only allowed at module level[0m[0m
+[31m[1m_____________________ ERROR collecting tests/test_team.py ______________________[0m
+[31mImportError while importing test module '/Users/rs8607/Downloads/scripts/data/nsp_tasks/tc_7670/workspace/tests/test_team.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/opt/anaconda3/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+[1m[31mtests/test_team.py[0m:1: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mnfldb[39;49;00m[04m[96m.[39;49;00m[04m[96mteam[39;49;00m[90m [39;49;00m[94mimport[39;49;00m standard_team[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'nfldb'[0m[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m tests/test_query.py
+[31mERROR[0m tests/test_sql.py
+[31mERROR[0m tests/test_team.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+[31m============================== [31m[1m3 errors[0m[31m in 0.13s[0m[31m ===============================[0m

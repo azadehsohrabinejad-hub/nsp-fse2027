@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_13236",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "The scope of this challenge is create an asynchronous API for the <a href=\"https://github.com/b-mueller/mythril\">Mythril</a> security analysis tool. The API should allow users to submit Ethereum bytec...",
+    "github_repo": "https://github.com/b-mueller/mythril",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

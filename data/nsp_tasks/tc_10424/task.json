@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_10424",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<p dir=\"ltr\">The goal of this challenge is to integrate the provided django/python app with Salesforce.</p>\n\n<h1 dir=\"ltr\">Challenge Requirements</h1>\n\n<p dir=\"ltr\">The new requirements needed :</p>\n\n...",
+    "github_repo": "https://github.com/calblueprint/revolv",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

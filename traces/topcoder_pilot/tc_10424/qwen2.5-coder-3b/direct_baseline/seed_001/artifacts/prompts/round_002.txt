@@ -1,0 +1,13 @@
+Task: <p dir="ltr">The goal of this challenge is to integrate the provided django/python app with Salesforce.</p>
+
+<h1 dir="ltr">Challenge Requirements</h1>
+
+<p dir="ltr">The new requirements needed :</p>
+
+...
+
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.

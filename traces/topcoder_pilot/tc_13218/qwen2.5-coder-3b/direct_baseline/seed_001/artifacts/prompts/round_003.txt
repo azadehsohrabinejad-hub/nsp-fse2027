@@ -1,0 +1,7 @@
+Task: <h1><span style="font-size:12px"><span style="font-family:tahoma,geneva,sans-serif"><span style="color:rgb(55, 55, 59)">This challenge is responsible for implementing the following two intents defined...
+
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.

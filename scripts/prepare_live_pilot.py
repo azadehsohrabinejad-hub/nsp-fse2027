@@ -11,7 +11,7 @@ def prepare_live_tasks():
     print(f"Preparing task.json for first 5 live tasks...")
     task_ids = []
     
-    for task in tasks[:5]:
+    for task in tasks[:50]:
         task_id = task['task_id']
         task_dir = os.path.join(output_dir, task_id)
         os.makedirs(task_dir, exist_ok=True)

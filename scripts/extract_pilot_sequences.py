@@ -29,12 +29,19 @@ for root, dirs, files in os.walk(trace_dir):
                 # Default vector of 21 zeros
                 y_t = [0.0] * 21
                 
-                # Extract pass_rate (feature 1)
+                # 1. Extract pass_rate (feature 1)
                 pass_rate = r.get("execution", {}).get("tests", {}).get("pass_rate", 0.0)
                 y_t[0] = pass_rate
                 
+                # 2. Extract edit_count (feature 6)
+                edit_count = r.get("edits", {}).get("statistics", {}).get("applied_edit_count", 0)
+                y_t[5] = float(edit_count)
+                
+                # 3. Extract invalid_patch (feature 18)
+                invalid_patch = r.get("observation", {}).get("behavior_features", {}).get("invalid_patch", False)
+                y_t[17] = 1.0 if invalid_patch else 0.0
+                
                 sequence_Y.append(y_t)
-            
             # If no rounds were recorded, create a dummy single-step sequence
             if not sequence_Y:
                 sequence_Y = [[0.0] * 21]

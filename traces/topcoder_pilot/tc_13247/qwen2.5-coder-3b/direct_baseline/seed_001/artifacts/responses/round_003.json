@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct syntax errors in the code",
+  "edits": [
+    {
+      "file": "relative/path/to/file.py",
+      "old_string": "// The following line is intended to print a message",
+      "new_string": "# The following line is intended to print a message"
+    }
+  ]
+}

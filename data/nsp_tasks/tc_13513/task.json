@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_13513",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "In the <a href=\"https://blockchain.topcoder.com/challenges/30062676\">previous challenge</a> we have created a Visual Studio Code Extension that performs security analysis on a Solidity source code fil...",
+    "github_repo": "https://github.com/b-mueller/mythril",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

@@ -1,10 +1,10 @@
 {
-  "plan": "Identify and correct syntax errors in the provided code",
+  "plan": "Identify and correct the error in the code",
   "edits": [
     {
-      "file": "relative/path/to/file.py",
-      "old_string": "",
-      "new_string": "// Your fixed code goes here"
+      "file": "relative/path/to/your/file.py",
+      "old_string": "// The existing code block that needs fixing",
+      "new_string": "// The corrected code block"
     }
   ]
 }

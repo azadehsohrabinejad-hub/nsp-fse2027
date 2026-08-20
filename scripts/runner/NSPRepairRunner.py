@@ -5,6 +5,7 @@ import subprocess
 import time
 import requests
 import shutil
+import stat
 
 # Add project root to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
@@ -76,41 +77,87 @@ class OllamaProvider(LLMProvider):
         except Exception as e:
             print(f"[OllamaProvider] Error: {e}")
             return {"plan": "Error", "edits": []}
+class OpenAIProvider(LLMProvider):
+    def __init__(self, model_name="gpt-4o-mini", api_key=None, base_url=None):
+        from openai import OpenAI
+        # Try to get key from arguments or environment variables
+        key = api_key or os.environ.get("OPENAI_API_KEY") or os.environ.get("GROQ_API_KEY") or os.environ.get("OPENROUTER_API_KEY")
+        if not key:
+            raise ValueError("API Key not provided. Set OPENAI_API_KEY, GROQ_API_KEY or OPENROUTER_API_KEY environment variable.")
+        
+        # If using Groq or OpenRouter, pass the base_url
+        self.client = OpenAI(api_key=key, base_url=base_url)
+        self.model_name = model_name
+        print(f"[LLMProvider] Initialized with model: {model_name} (Base URL: {base_url or 'Default OpenAI'})")
+
+    def generate(self, prompt: str) -> dict:
+        print(f"[LLMProvider] Sending prompt to {self.model_name}...")
+        system_prompt = (
+            "You are an expert code repair agent. Your output MUST be ONLY a valid JSON object.\n"
+            "The JSON MUST follow this exact schema:\n"
+            "{\"plan\": \"...\", \"edits\": [{\"file\": \"...\", \"old_string\": \"...\", \"new_string\": \"...\"}]}"
+        )
+        try:
+            response = self.client.chat.completions.create(
+                model=self.model_name,
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": f"{prompt}\n\nReturn ONLY the JSON object:"}
+                ],
+                response_format={"type": "json_object"},
+                temperature=0.2
+            )
+            content = response.choices[0].message.content
+            return json.loads(content)
+        except Exception as e:
+            print(f"[LLMProvider] Error: {e}")
+            return {"plan": "Error", "edits": []}
+
 
 # --- Repository Manager ---
+# --- Repository Manager ---
 class RepositoryManager:
+    @staticmethod
+    def force_remove_readonly(func, path, excinfo):
+        """Helper to force remove read-only files on Windows."""
+        os.chmod(path, stat.S_IWRITE)
+        func(path)
+
     @staticmethod
     def clone_and_checkout(task_dir, repo_url, branch=None, commit_hash=None):
         workspace_dir = os.path.join(task_dir, "workspace")
         
+        # 1. Force delete workspace if it exists (Handles Windows lock issues)
         if os.path.exists(workspace_dir):
-            shutil.rmtree(workspace_dir)
+            print("[RepoManager] Cleaning up existing workspace...")
+            try:
+                shutil.rmtree(workspace_dir, onerror=RepositoryManager.force_remove_readonly)
+            except Exception as e:
+                print(f"[RepoManager] Warning: Could not fully delete workspace: {e}")
             
         print(f"[RepoManager] Cloning {repo_url}...")
-        clone_cmd = ["git", "clone", "--depth", "1"]
-        if branch:
-            clone_cmd.extend(["--branch", branch])
-        clone_cmd.extend([repo_url, workspace_dir])
         
+        # 2. Try cloning with specified branch, or without branch to get default
+        if branch:
+            clone_cmd = ["git", "clone", "--depth", "1", "--branch", branch, repo_url, workspace_dir]
+        else:
+            clone_cmd = ["git", "clone", "--depth", "1", repo_url, workspace_dir]
+            
         result = subprocess.run(clone_cmd, capture_output=True, text=True)
+        
+        # 3. If branch failed, fallback to default branch
+        if result.returncode != 0 and branch:
+            print(f"[RepoManager] Branch '{branch}' failed. Trying default branch...")
+            clone_cmd = ["git", "clone", "--depth", "1", repo_url, workspace_dir]
+            result = subprocess.run(clone_cmd, capture_output=True, text=True)
+            
         if result.returncode != 0:
             print(f"[RepoManager] Clone failed: {result.stderr}")
             return False
-            
-        if commit_hash:
-            print(f"[RepoManager] Fetching commit {commit_hash}...")
-            fetch_cmd = ["git", "fetch", "--depth", "1", "origin", commit_hash]
-            subprocess.run(fetch_cmd, cwd=workspace_dir, capture_output=True, text=True)
-            
-            checkout_cmd = ["git", "checkout", commit_hash]
-            res = subprocess.run(checkout_cmd, cwd=workspace_dir, capture_output=True, text=True)
-            if res.returncode != 0:
-                print(f"[RepoManager] Checkout failed: {res.stderr}")
-                return False
                 
         print("[RepoManager] Repository ready.")
         return True
-
+        
 # --- NSP Repair Runner ---
 class NSPRepairRunner:
     def __init__(self, task_dir, provider, model_name="mock-llm"):
@@ -222,13 +269,48 @@ class NSPRepairRunner:
             print(f"\n--- Round {i} ---")
             round_start_time = time.time()
             
-            target_file = self.task['target_files'][0] if self.task.get('target_files') else ""
+            target_files = self.task.get('target_files', [])
+            target_file = target_files[0] if target_files else ""
             buggy_code = ""
+            
+            # 1. Read the current state of the buggy file
             if target_file:
-                with open(os.path.join(self.workspace_dir, target_file), 'r') as f:
-                    buggy_code = f.read()
+                file_path = os.path.join(self.workspace_dir, target_file)
+                if os.path.exists(file_path):
+                    with open(file_path, 'r') as f:
+                        buggy_code = f.read()
+            
+            # 2. Read test errors from the previous round (or initial test for round 1)
+            if i == 1:
+                stdout_path = os.path.join(self.artifacts_dir, "logs", "initial_test_stdout.txt")
+                stderr_path = os.path.join(self.artifacts_dir, "logs", "initial_test_stderr.txt")
+            else:
+                stdout_path = os.path.join(self.artifacts_dir, "logs", f"round_{i-1:03d}_test_stdout.txt")
+                stderr_path = os.path.join(self.artifacts_dir, "logs", f"round_{i-1:03d}_test_stderr.txt")
                 
-            prompt = f"Task: {self.task['description']}\nFix the file: {target_file}\nCurrent buggy code:\n```\n{buggy_code}\n```"
+            test_error = ""
+            if os.path.exists(stderr_path):
+                with open(stderr_path, 'r') as f:
+                    err_content = f.read().strip()
+                if err_content:
+                    # Truncate to last 2000 characters to avoid token limits
+                    test_error = err_content[-2000:] 
+            
+            # 3. Construct the new context-aware Prompt
+            prompt = f"Task: {self.task['description']}\n"
+            
+            if test_error:
+                prompt += f"\nPrevious Test Failed with the following error:\n```\n{test_error}\n```\n"
+            else:
+                prompt += "\nThe tests are currently failing, but no explicit error was printed to stderr.\n"
+                
+            if buggy_code:
+                prompt += f"\nCurrent state of the buggy file ({target_file}):\n```\n{buggy_code}\n```\n"
+            else:
+                prompt += "\nPlease identify the file that needs fixing, read it, and provide the edits to fix the issue.\n"
+            
+            prompt += "\nReturn ONLY the JSON with 'edits' to fix the issue."
+            
             prompt_path = os.path.join(self.artifacts_dir, "prompts", f"round_{i:03d}.txt")
             with open(prompt_path, 'w') as f: f.write(prompt)
             

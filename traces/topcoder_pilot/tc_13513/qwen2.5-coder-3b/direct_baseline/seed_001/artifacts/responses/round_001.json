@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct the issue causing tests to fail without printing errors",
+  "edits": [
+    {
+      "file": "src/test_solidity_analysis.py",
+      "old_string": "assert result == expected",
+      "new_string": "assert result == expected, f'Expected {expected}, but got {result}'"
+    }
+  ]
+}

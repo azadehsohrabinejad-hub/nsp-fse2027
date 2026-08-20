@@ -1,0 +1,6 @@
+run_id,task_id,model,strategy,actual_rounds,all_tests_passed,final_pass_rate,applied_edits_total,invalid_patch_rounds,trace_path
+tc_10081__gpt-4o-mini__direct_baseline__seed_001,tc_10081,gpt-4o-mini,direct_baseline,3,False,0.0,0,3,/Users/rs8607/Downloads/traces/topcoder_pilot/tc_10081/gpt-4o-mini/direct_baseline/seed_001/trace.json
+tc_3928__gpt-4o-mini__direct_baseline__seed_001,tc_3928,gpt-4o-mini,direct_baseline,3,False,0.0,0,3,/Users/rs8607/Downloads/traces/topcoder_pilot/tc_3928/gpt-4o-mini/direct_baseline/seed_001/trace.json
+tc_7670__gpt-4o-mini__direct_baseline__seed_001,tc_7670,gpt-4o-mini,direct_baseline,3,False,0.0,0,3,/Users/rs8607/Downloads/traces/topcoder_pilot/tc_7670/gpt-4o-mini/direct_baseline/seed_001/trace.json
+tc_8853__gpt-4o-mini__direct_baseline__seed_001,tc_8853,gpt-4o-mini,direct_baseline,3,False,0.0,0,3,/Users/rs8607/Downloads/traces/topcoder_pilot/tc_8853/gpt-4o-mini/direct_baseline/seed_001/trace.json
+tc_9745__gpt-4o-mini__direct_baseline__seed_001,tc_9745,gpt-4o-mini,direct_baseline,3,False,0.0,0,3,/Users/rs8607/Downloads/traces/topcoder_pilot/tc_9745/gpt-4o-mini/direct_baseline/seed_001/trace.json

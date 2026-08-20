@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_10516",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<div class=\"previewMask\">\n<p><span><span>Our last series of IBM Watson challenge we explored&nbsp;<span>Tone Analyzer</span>. This week&nbsp;it&#39;s&nbsp;time for another API &quot;Language Translati...",
+    "github_repo": "https://github.com/watson-developer-cloud/language-translation-nodejs",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

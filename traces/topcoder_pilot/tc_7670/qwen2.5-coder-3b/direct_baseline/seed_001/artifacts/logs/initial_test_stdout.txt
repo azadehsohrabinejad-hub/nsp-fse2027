@@ -62,4 +62,4 @@ ERROR tests/test_query.py
 ERROR tests/test_sql.py
 ERROR tests/test_team.py
 !!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!
-======================== 1 warning, 3 errors in 1.28s =========================
+======================== 1 warning, 3 errors in 1.01s =========================

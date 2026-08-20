@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_13596",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<p><span style=\"font-size:12px\"><span style=\"background-color:transparent; color:rgb(0, 0, 0); font-family:arial\">We need help from the TopCoder community to implement Part 2 of the DBMV schema conver...",
+    "github_repo": "https://github.com/ActianCorp/dbmv",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

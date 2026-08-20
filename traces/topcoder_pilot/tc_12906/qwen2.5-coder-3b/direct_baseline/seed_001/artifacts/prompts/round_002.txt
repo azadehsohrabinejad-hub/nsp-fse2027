@@ -1,0 +1,9 @@
+Task: <div><span style="color:#000000">In this challenge series we will be building a tool that imports a swagger API definition into Amazon API Gateway.<br />
+<br />
+The tool will have two tasks:</span></d...
+
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.

@@ -27,7 +27,7 @@
     {
       "round_index": 1,
       "timing": {
-        "total_seconds": 21.354567527770996
+        "total_seconds": 23.625859260559082
       },
       "prompt": {
         "rendered_prompt_path": "D:\\raz\\razieh\\traces\\topcoder_pilot\\tc_10081\\qwen2.5-coder-3b\\direct_baseline\\seed_001\\artifacts\\prompts\\round_001.txt"
@@ -60,7 +60,7 @@
     {
       "round_index": 2,
       "timing": {
-        "total_seconds": 15.048407793045044
+        "total_seconds": 16.698575973510742
       },
       "prompt": {
         "rendered_prompt_path": "D:\\raz\\razieh\\traces\\topcoder_pilot\\tc_10081\\qwen2.5-coder-3b\\direct_baseline\\seed_001\\artifacts\\prompts\\round_002.txt"
@@ -93,7 +93,7 @@
     {
       "round_index": 3,
       "timing": {
-        "total_seconds": 15.382469415664673
+        "total_seconds": 16.325198650360107
       },
       "prompt": {
         "rendered_prompt_path": "D:\\raz\\razieh\\traces\\topcoder_pilot\\tc_10081\\qwen2.5-coder-3b\\direct_baseline\\seed_001\\artifacts\\prompts\\round_003.txt"

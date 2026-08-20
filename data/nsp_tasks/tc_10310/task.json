@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "task_id": "tc_10310",
+    "benchmark": "Topcoder",
+    "language": "python",
+    "description": "<p dir=\"ltr\">RE-volv is a solar energy crowdsourcing platform. &nbsp;The platform allows individuals to donate to solar energy projects. &nbsp;RE-volv then re-invests the money the projects&#39; saved...",
+    "github_repo": "https://github.com/calblueprint/revolv",
+    "branch": null,
+    "commit_hash": null,
+    "target_files": [],
+    "setup_commands": [
+        "pip install -r requirements.txt"
+    ],
+    "test_commands": [
+        "pytest"
+    ],
+    "max_rounds": 3
+}

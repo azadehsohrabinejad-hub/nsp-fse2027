@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct the syntax errors in the HTML code",
+  "edits": [
+    {
+      "file": "index.html",
+      "old_string": "<div class=\"previewMask\">\n<h2><span>Overview</span></h2>\n\n<p><span>Our last series of IBM Watson challenge we explored&nbsp;<span>Tone Analyzer</span>. This week&nbsp;it&#39;s&nbsp;time for another AP...",
+      "new_string": "<div class=\"previewMask\">\n<h2><span>Overview</span></h2>\n\n<p><span>Our last series of IBM Watson challenge we explored <span>Tone Analyzer</span>. This week it's time for another AP...</p>"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+method,heldout_positive_cases,reference_hit_rate_positive,avg_obligations_positive,avg_counterexamples_positive,avg_obligations_complete,avg_counterexamples_complete,fresh_external_false_positive_rate
+plain_test_pass_baseline,22,0.0,0.0,0.0,0.0,0.0,
+prompted_semantic_auditor,22,0.9090909090909091,2.0454545454545454,1.9090909090909092,1.75,1.875,1.0
+strategy_aware_semantic_critic,22,1.0,2.0,2.090909090909091,2.0,1.875,0.25
+structured_logreg_baseline,22,0.0,0.0,0.0,0.0,0.0,
+target_coverage_rule,22,0.0,0.0,0.0,0.0,0.0,

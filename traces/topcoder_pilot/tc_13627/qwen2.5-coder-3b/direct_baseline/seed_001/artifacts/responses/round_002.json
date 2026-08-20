@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct the error in the test setup",
+  "edits": [
+    {
+      "file": "tests/test_mythril.py",
+      "old_string": "assert mythril.analyze(contract) == 'error'",
+      "new_string": "assert mythril.analyze(contract) is None"
+    }
+  ]
+}

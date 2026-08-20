@@ -1,0 +1,6 @@
+method,heldout_cases,precision,recall,f1,auroc,avg_cost_usd,heldout_spurious_rate_complete,fresh_external_cases,fresh_external_false_positive_rate
+plain_test_pass_baseline,30,0.0,0.0,0.0,,0.0,0.0,0,
+prompted_semantic_auditor,30,0.7391304347826086,0.7727272727272727,0.7555555555555555,,0.0010536386666666665,0.75,4,1.0
+strategy_aware_semantic_critic,30,0.7307692307692307,0.8636363636363636,0.7916666666666666,,0.0009675053333333333,0.875,4,0.25
+structured_logreg_baseline,30,0.7586206896551724,1.0,0.8627450980392156,,0.0,0.875,0,
+target_coverage_rule,30,0.0,0.0,0.0,,0.0,0.0,0,

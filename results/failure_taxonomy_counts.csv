@@ -1,0 +1,324 @@
+mutation_family,repo_slug,model,strategy,failure_taxonomy,count
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,contract_first,one-file-only repair,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,direct_baseline,one-file-only repair,2
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,failure_mode_first,one-file-only repair,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,multi_view,one-file-only repair,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,pattern_skeleton,one-file-only repair,2
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,role_decomposed,one-file-only repair,2
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,semantic_diff,one-file-only repair,2
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,simulation_trace,one-file-only repair,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,contract_first,one-file-only repair,2
+compensating_dual_mutation,simtradedata_kay_ou,gpt-4.1-nano,direct_baseline,one-file-only repair,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,failure_mode_first,one-file-only repair,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,multi_view,one-file-only repair,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,pattern_skeleton,one-file-only repair,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,role_decomposed,one-file-only repair,1
+compensating_dual_mutation,simtradedata_kay_ou,gpt-4.1-nano,semantic_diff,one-file-only repair,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,semantic_diff,one-file-only repair,2
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,simulation_trace,one-file-only repair,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,contract_first,patch application failure,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,failure_mode_first,patch application failure,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,simulation_trace,patch application failure,1
+compensating_dual_mutation,simtradedata_kay_ou,gpt-4.1-nano,contract_first,patch application failure,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,direct_baseline,patch application failure,1
+compensating_dual_mutation,simtradedata_kay_ou,gpt-4.1-nano,failure_mode_first,patch application failure,1
+compensating_dual_mutation,simtradedata_kay_ou,gpt-4.1-nano,multi_view,patch application failure,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,multi_view,patch application failure,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,pattern_skeleton,patch application failure,1
+compensating_dual_mutation,simtradedata_kay_ou,gpt-4.1-nano,semantic_diff,patch application failure,1
+compensating_dual_mutation,simtradedata_kay_ou,gpt-4.1-nano,simulation_trace,patch application failure,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,multi_view,wrong invariant restored,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,direct_baseline,wrong invariant restored,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,failure_mode_first,wrong invariant restored,1
+compensating_dual_mutation,simtradedata_kay_ou,gpt-4.1-nano,multi_view,wrong invariant restored,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,role_decomposed,wrong invariant restored,1
+compensating_dual_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,simulation_trace,wrong invariant restored,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-mini,contract_first,one-file-only repair,2
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,contract_first,one-file-only repair,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-mini,direct_baseline,one-file-only repair,4
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-mini,failure_mode_first,one-file-only repair,2
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,failure_mode_first,one-file-only repair,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-mini,multi_view,one-file-only repair,2
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,multi_view,one-file-only repair,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-mini,pattern_skeleton,one-file-only repair,3
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-mini,role_decomposed,one-file-only repair,3
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,role_decomposed,one-file-only repair,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-mini,semantic_diff,one-file-only repair,2
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,semantic_diff,one-file-only repair,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-mini,simulation_trace,one-file-only repair,3
+false_localization_trap,braindecode_braindecode,gpt-4.1-nano,contract_first,one-file-only repair,1
+false_localization_trap,simtradedata_kay_ou,gpt-4.1-nano,contract_first,one-file-only repair,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,contract_first,one-file-only repair,4
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,contract_first,one-file-only repair,1
+false_localization_trap,simtradedata_kay_ou,gpt-4.1-nano,direct_baseline,one-file-only repair,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,direct_baseline,one-file-only repair,4
+false_localization_trap,braindecode_braindecode,gpt-4.1-nano,failure_mode_first,one-file-only repair,1
+false_localization_trap,simtradedata_kay_ou,gpt-4.1-nano,failure_mode_first,one-file-only repair,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,failure_mode_first,one-file-only repair,3
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,failure_mode_first,one-file-only repair,1
+false_localization_trap,simtradedata_kay_ou,gpt-4.1-nano,multi_view,one-file-only repair,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,multi_view,one-file-only repair,3
+false_localization_trap,braindecode_braindecode,gpt-4.1-nano,pattern_skeleton,one-file-only repair,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,pattern_skeleton,one-file-only repair,2
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,pattern_skeleton,one-file-only repair,1
+false_localization_trap,simtradedata_kay_ou,gpt-4.1-nano,role_decomposed,one-file-only repair,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,role_decomposed,one-file-only repair,4
+false_localization_trap,simtradedata_kay_ou,gpt-4.1-nano,semantic_diff,one-file-only repair,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,semantic_diff,one-file-only repair,4
+false_localization_trap,simtradedata_kay_ou,gpt-4.1-nano,simulation_trace,one-file-only repair,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,simulation_trace,one-file-only repair,3
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,simulation_trace,one-file-only repair,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,contract_first,patch application failure,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,direct_baseline,patch application failure,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,failure_mode_first,patch application failure,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,multi_view,patch application failure,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,pattern_skeleton,patch application failure,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,role_decomposed,patch application failure,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,semantic_diff,patch application failure,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,simulation_trace,patch application failure,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,contract_first,patch application failure,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,direct_baseline,patch application failure,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,failure_mode_first,patch application failure,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,failure_mode_first,patch application failure,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,semantic_diff,patch application failure,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,semantic_diff,patch application failure,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,simulation_trace,patch application failure,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,contract_first,semantic mismatch after partial fix,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,pattern_skeleton,semantic mismatch after partial fix,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,simulation_trace,semantic mismatch after partial fix,1
+false_localization_trap,simtradedata_kay_ou,gpt-4.1-mini,contract_first,test-message overfitting,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-mini,contract_first,test-message overfitting,2
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,contract_first,test-message overfitting,1
+false_localization_trap,simtradedata_kay_ou,gpt-4.1-mini,direct_baseline,test-message overfitting,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,direct_baseline,test-message overfitting,2
+false_localization_trap,braindecode_braindecode,gpt-4.1-mini,failure_mode_first,test-message overfitting,1
+false_localization_trap,simtradedata_kay_ou,gpt-4.1-mini,failure_mode_first,test-message overfitting,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-mini,failure_mode_first,test-message overfitting,2
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,failure_mode_first,test-message overfitting,1
+false_localization_trap,braindecode_braindecode,gpt-4.1-mini,multi_view,test-message overfitting,1
+false_localization_trap,simtradedata_kay_ou,gpt-4.1-mini,multi_view,test-message overfitting,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-mini,multi_view,test-message overfitting,2
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,multi_view,test-message overfitting,1
+false_localization_trap,braindecode_braindecode,gpt-4.1-mini,pattern_skeleton,test-message overfitting,1
+false_localization_trap,simtradedata_kay_ou,gpt-4.1-mini,pattern_skeleton,test-message overfitting,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-mini,pattern_skeleton,test-message overfitting,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,pattern_skeleton,test-message overfitting,2
+false_localization_trap,braindecode_braindecode,gpt-4.1-mini,role_decomposed,test-message overfitting,1
+false_localization_trap,simtradedata_kay_ou,gpt-4.1-mini,role_decomposed,test-message overfitting,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-mini,role_decomposed,test-message overfitting,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,role_decomposed,test-message overfitting,1
+false_localization_trap,simtradedata_kay_ou,gpt-4.1-mini,semantic_diff,test-message overfitting,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-mini,semantic_diff,test-message overfitting,2
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,semantic_diff,test-message overfitting,1
+false_localization_trap,braindecode_braindecode,gpt-4.1-mini,simulation_trace,test-message overfitting,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-mini,simulation_trace,test-message overfitting,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,simulation_trace,test-message overfitting,2
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,contract_first,test-message overfitting,1
+false_localization_trap,braindecode_braindecode,gpt-4.1-nano,direct_baseline,test-message overfitting,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,direct_baseline,test-message overfitting,2
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,failure_mode_first,test-message overfitting,1
+false_localization_trap,braindecode_braindecode,gpt-4.1-nano,multi_view,test-message overfitting,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,multi_view,test-message overfitting,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,multi_view,test-message overfitting,2
+false_localization_trap,simtradedata_kay_ou,gpt-4.1-nano,pattern_skeleton,test-message overfitting,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,pattern_skeleton,test-message overfitting,2
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,pattern_skeleton,test-message overfitting,1
+false_localization_trap,braindecode_braindecode,gpt-4.1-nano,role_decomposed,test-message overfitting,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,role_decomposed,test-message overfitting,2
+false_localization_trap,braindecode_braindecode,gpt-4.1-nano,semantic_diff,test-message overfitting,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,semantic_diff,test-message overfitting,2
+false_localization_trap,braindecode_braindecode,gpt-4.1-nano,simulation_trace,test-message overfitting,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,simulation_trace,test-message overfitting,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,simulation_trace,test-message overfitting,1
+false_localization_trap,tmux_python_tmuxp,gpt-4.1-nano,failure_mode_first,wrong-file localization,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,multi_view,wrong-file localization,1
+false_localization_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,role_decomposed,wrong-file localization,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-mini,contract_first,one-file-only repair,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-mini,contract_first,one-file-only repair,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,contract_first,one-file-only repair,2
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-mini,direct_baseline,one-file-only repair,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,direct_baseline,one-file-only repair,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-mini,failure_mode_first,one-file-only repair,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,failure_mode_first,one-file-only repair,2
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-mini,multi_view,one-file-only repair,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-mini,pattern_skeleton,one-file-only repair,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-mini,pattern_skeleton,one-file-only repair,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,pattern_skeleton,one-file-only repair,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-mini,role_decomposed,one-file-only repair,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-mini,role_decomposed,one-file-only repair,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,role_decomposed,one-file-only repair,2
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-mini,semantic_diff,one-file-only repair,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,semantic_diff,one-file-only repair,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-mini,simulation_trace,one-file-only repair,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-nano,contract_first,one-file-only repair,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-nano,contract_first,one-file-only repair,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,contract_first,one-file-only repair,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-nano,direct_baseline,one-file-only repair,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-nano,direct_baseline,one-file-only repair,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,direct_baseline,one-file-only repair,2
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-nano,failure_mode_first,one-file-only repair,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,failure_mode_first,one-file-only repair,2
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-nano,multi_view,one-file-only repair,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-nano,multi_view,one-file-only repair,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,multi_view,one-file-only repair,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-nano,pattern_skeleton,one-file-only repair,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,pattern_skeleton,one-file-only repair,2
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-nano,role_decomposed,one-file-only repair,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-nano,role_decomposed,one-file-only repair,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-nano,semantic_diff,one-file-only repair,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,semantic_diff,one-file-only repair,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-nano,simulation_trace,one-file-only repair,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-nano,simulation_trace,one-file-only repair,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-nano,direct_baseline,patch application failure,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-nano,failure_mode_first,patch application failure,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-nano,multi_view,patch application failure,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-nano,pattern_skeleton,patch application failure,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-nano,role_decomposed,patch application failure,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-nano,simulation_trace,patch application failure,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-mini,contract_first,test-message overfitting,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-mini,direct_baseline,test-message overfitting,2
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,direct_baseline,test-message overfitting,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-mini,failure_mode_first,test-message overfitting,2
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-mini,multi_view,test-message overfitting,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,multi_view,test-message overfitting,2
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-mini,pattern_skeleton,test-message overfitting,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,pattern_skeleton,test-message overfitting,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-mini,semantic_diff,test-message overfitting,2
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,semantic_diff,test-message overfitting,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-mini,simulation_trace,test-message overfitting,2
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-mini,simulation_trace,test-message overfitting,2
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-nano,contract_first,test-message overfitting,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,contract_first,test-message overfitting,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-nano,direct_baseline,test-message overfitting,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-nano,failure_mode_first,test-message overfitting,1
+incomplete_patch_trap,tmux_python_tmuxp,gpt-4.1-nano,failure_mode_first,test-message overfitting,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-nano,multi_view,test-message overfitting,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,multi_view,test-message overfitting,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-nano,pattern_skeleton,test-message overfitting,2
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-nano,role_decomposed,test-message overfitting,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,role_decomposed,test-message overfitting,2
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-nano,semantic_diff,test-message overfitting,2
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,semantic_diff,test-message overfitting,1
+incomplete_patch_trap,simtradedata_kay_ou,gpt-4.1-nano,simulation_trace,test-message overfitting,1
+incomplete_patch_trap,topcoder_tc_template_node_postgres,gpt-4.1-nano,simulation_trace,test-message overfitting,2
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-mini,contract_first,one-file-only repair,1
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-mini,contract_first,one-file-only repair,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,contract_first,one-file-only repair,2
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-mini,direct_baseline,one-file-only repair,1
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-mini,direct_baseline,one-file-only repair,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,direct_baseline,one-file-only repair,2
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-mini,failure_mode_first,one-file-only repair,1
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-mini,failure_mode_first,one-file-only repair,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,failure_mode_first,one-file-only repair,3
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-mini,multi_view,one-file-only repair,1
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-mini,multi_view,one-file-only repair,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,multi_view,one-file-only repair,2
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-mini,pattern_skeleton,one-file-only repair,1
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-mini,pattern_skeleton,one-file-only repair,1
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-mini,role_decomposed,one-file-only repair,1
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-mini,semantic_diff,one-file-only repair,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,semantic_diff,one-file-only repair,2
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-mini,simulation_trace,one-file-only repair,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,simulation_trace,one-file-only repair,1
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-nano,contract_first,one-file-only repair,1
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-nano,contract_first,one-file-only repair,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,contract_first,one-file-only repair,2
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-nano,direct_baseline,one-file-only repair,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,direct_baseline,one-file-only repair,1
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-nano,failure_mode_first,one-file-only repair,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,failure_mode_first,one-file-only repair,2
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-nano,multi_view,one-file-only repair,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,multi_view,one-file-only repair,2
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,pattern_skeleton,one-file-only repair,2
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-nano,role_decomposed,one-file-only repair,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,role_decomposed,one-file-only repair,2
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-nano,semantic_diff,one-file-only repair,1
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-nano,semantic_diff,one-file-only repair,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,semantic_diff,one-file-only repair,2
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-nano,simulation_trace,one-file-only repair,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,simulation_trace,one-file-only repair,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,contract_first,patch application failure,1
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-mini,direct_baseline,patch application failure,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,direct_baseline,patch application failure,1
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-mini,failure_mode_first,patch application failure,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,failure_mode_first,patch application failure,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,multi_view,patch application failure,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,pattern_skeleton,patch application failure,1
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-mini,role_decomposed,patch application failure,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,role_decomposed,patch application failure,1
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-mini,semantic_diff,patch application failure,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,semantic_diff,patch application failure,1
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-mini,simulation_trace,patch application failure,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,simulation_trace,patch application failure,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,contract_first,patch application failure,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,direct_baseline,patch application failure,1
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-nano,multi_view,patch application failure,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,multi_view,patch application failure,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,pattern_skeleton,patch application failure,1
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-nano,role_decomposed,patch application failure,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,role_decomposed,patch application failure,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,semantic_diff,patch application failure,1
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-nano,simulation_trace,patch application failure,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,simulation_trace,patch application failure,1
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-mini,pattern_skeleton,semantic mismatch after partial fix,1
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-nano,contract_first,semantic mismatch after partial fix,1
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-nano,direct_baseline,semantic mismatch after partial fix,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,failure_mode_first,semantic mismatch after partial fix,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,contract_first,test-message overfitting,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,direct_baseline,test-message overfitting,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,multi_view,test-message overfitting,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,pattern_skeleton,test-message overfitting,3
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-mini,role_decomposed,test-message overfitting,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,role_decomposed,test-message overfitting,3
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-mini,semantic_diff,test-message overfitting,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,semantic_diff,test-message overfitting,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-mini,simulation_trace,test-message overfitting,2
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-nano,direct_baseline,test-message overfitting,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,direct_baseline,test-message overfitting,2
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-nano,failure_mode_first,test-message overfitting,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,failure_mode_first,test-message overfitting,1
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-nano,multi_view,test-message overfitting,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,multi_view,test-message overfitting,1
+semantic_shadow_mutation,braindecode_braindecode,gpt-4.1-nano,pattern_skeleton,test-message overfitting,1
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-nano,pattern_skeleton,test-message overfitting,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,pattern_skeleton,test-message overfitting,1
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-nano,role_decomposed,test-message overfitting,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,role_decomposed,test-message overfitting,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,semantic_diff,test-message overfitting,1
+semantic_shadow_mutation,tmux_python_tmuxp,gpt-4.1-nano,simulation_trace,test-message overfitting,1
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,simulation_trace,test-message overfitting,2
+semantic_shadow_mutation,topcoder_tc_template_node_postgres,gpt-4.1-nano,contract_first,wrong-file localization,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-mini,contract_first,one-file-only repair,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-mini,direct_baseline,one-file-only repair,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-mini,direct_baseline,one-file-only repair,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-mini,failure_mode_first,one-file-only repair,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-mini,failure_mode_first,one-file-only repair,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-mini,multi_view,one-file-only repair,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-mini,multi_view,one-file-only repair,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-mini,pattern_skeleton,one-file-only repair,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-mini,pattern_skeleton,one-file-only repair,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-mini,role_decomposed,one-file-only repair,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-mini,role_decomposed,one-file-only repair,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-mini,semantic_diff,one-file-only repair,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-mini,semantic_diff,one-file-only repair,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-mini,simulation_trace,one-file-only repair,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-mini,simulation_trace,one-file-only repair,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-nano,contract_first,one-file-only repair,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-nano,direct_baseline,one-file-only repair,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-nano,multi_view,one-file-only repair,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-nano,role_decomposed,one-file-only repair,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-nano,semantic_diff,one-file-only repair,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-nano,simulation_trace,one-file-only repair,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-nano,direct_baseline,patch application failure,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-nano,role_decomposed,patch application failure,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-mini,contract_first,test-message overfitting,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-nano,contract_first,test-message overfitting,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-nano,direct_baseline,test-message overfitting,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-nano,failure_mode_first,test-message overfitting,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-nano,multi_view,test-message overfitting,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-nano,pattern_skeleton,test-message overfitting,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-nano,pattern_skeleton,test-message overfitting,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-nano,role_decomposed,test-message overfitting,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-nano,semantic_diff,test-message overfitting,1
+temporal_state_inconsistency,braindecode_braindecode,gpt-4.1-nano,simulation_trace,test-message overfitting,1
+temporal_state_inconsistency,tmux_python_tmuxp,gpt-4.1-nano,failure_mode_first,wrong-file localization,1

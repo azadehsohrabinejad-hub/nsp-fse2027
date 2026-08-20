@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct syntax errors in the code",
+  "edits": [
+    {
+      "file": "path/to/your/file.py",
+      "old_string": "// Your old code here",
+      "new_string": "// Your corrected code here"
+    }
+  ]
+}

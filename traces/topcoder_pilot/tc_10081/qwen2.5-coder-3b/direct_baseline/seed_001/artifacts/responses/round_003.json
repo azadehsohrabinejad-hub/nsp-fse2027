@@ -1,10 +1,10 @@
 {
-  "plan": "Identify and correct syntax errors in the provided code",
+  "plan": "Identify and correct the error in the test setup",
   "edits": [
     {
-      "file": "relative/path/to/file.py",
-      "old_string": "",
-      "new_string": "// Your fixed code goes here"
+      "file": "tests/test_main.py",
+      "old_string": "assert result == expected",
+      "new_string": "self.assertEqual(result, expected)"
     }
   ]
 }

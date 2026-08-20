@@ -1,8 +1,9 @@
 Task: <h2><span style="color:rgb(255, 0, 0)">Competition Task Overview</span></h2>
 
 <p>This challenge is for the build and design of a 3-tier web application deployed into the AWS cloud.&nbsp; The purpose o...
-Fix the file: 
-Current buggy code:
-```
 
-```
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.

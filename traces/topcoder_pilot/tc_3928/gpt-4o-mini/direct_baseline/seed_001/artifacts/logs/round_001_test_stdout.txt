@@ -1,0 +1,100 @@
+[1m============================= test session starts ==============================[0m
+platform darwin -- Python 3.13.2, pytest-8.3.4, pluggy-1.5.0
+rootdir: /Users/rs8607/Downloads/scripts/data/nsp_tasks/tc_3928/workspace
+plugins: langsmith-0.7.1, dash-3.2.0, anyio-4.7.0
+collected 492 items / 9 errors
+
+==================================== ERRORS ====================================
+[31m[1m________________ ERROR collecting tests/cluster/test_cluster.py ________________[0m
+[31mImportError while importing test module '/Users/rs8607/Downloads/scripts/data/nsp_tasks/tc_3928/workspace/tests/cluster/test_cluster.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/opt/anaconda3/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+[1m[31mtests/cluster/test_cluster.py[0m:4: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mtwilio[39;49;00m[04m[96m.[39;49;00m[04m[96mrest[39;49;00m[90m [39;49;00m[94mimport[39;49;00m Client[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'twilio'[0m[0m
+[31m[1m________________ ERROR collecting tests/cluster/test_webhook.py ________________[0m
+[31mImportError while importing test module '/Users/rs8607/Downloads/scripts/data/nsp_tasks/tc_3928/workspace/tests/cluster/test_webhook.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/opt/anaconda3/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+[1m[31mtests/cluster/test_webhook.py[0m:4: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mtwilio[39;49;00m[04m[96m.[39;49;00m[04m[96mrequest_validator[39;49;00m[90m [39;49;00m[94mimport[39;49;00m RequestValidator[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'twilio'[0m[0m
+[31m[1m_______________ ERROR collecting tests/unit/base/test_version.py _______________[0m
+[31mImportError while importing test module '/Users/rs8607/Downloads/scripts/data/nsp_tasks/tc_3928/workspace/tests/unit/base/test_version.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/opt/anaconda3/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+[1m[31mtests/unit/base/test_version.py[0m:4: in <module>
+    [0m[94mimport[39;49;00m[90m [39;49;00m[04m[96maiounittest[39;49;00m[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'aiounittest'[0m[0m
+[31m[1m__________ ERROR collecting tests/unit/http/test_async_http_client.py __________[0m
+[31mImportError while importing test module '/Users/rs8607/Downloads/scripts/data/nsp_tasks/tc_3928/workspace/tests/unit/http/test_async_http_client.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/opt/anaconda3/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+[1m[31mtests/unit/http/test_async_http_client.py[0m:1: in <module>
+    [0m[94mimport[39;49;00m[90m [39;49;00m[04m[96maiounittest[39;49;00m[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'aiounittest'[0m[0m
+[31m[1m_____________ ERROR collecting tests/unit/http/test_http_client.py _____________[0m
+[31mImportError while importing test module '/Users/rs8607/Downloads/scripts/data/nsp_tasks/tc_3928/workspace/tests/unit/http/test_http_client.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/opt/anaconda3/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+[1m[31mtests/unit/http/test_http_client.py[0m:6: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mmock[39;49;00m[90m [39;49;00m[94mimport[39;49;00m Mock, patch[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'mock'[0m[0m
+[31m[1m__________ ERROR collecting tests/unit/http/test_validation_client.py __________[0m
+[31mImportError while importing test module '/Users/rs8607/Downloads/scripts/data/nsp_tasks/tc_3928/workspace/tests/unit/http/test_validation_client.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/opt/anaconda3/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+[1m[31mtests/unit/http/test_validation_client.py[0m:5: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mmock[39;49;00m[90m [39;49;00m[94mimport[39;49;00m patch, Mock[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'mock'[0m[0m
+[31m[1m_________________ ERROR collecting tests/unit/jwt/test_jwt.py __________________[0m
+[31mImportError while importing test module '/Users/rs8607/Downloads/scripts/data/nsp_tasks/tc_3928/workspace/tests/unit/jwt/test_jwt.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/opt/anaconda3/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+[1m[31mtests/unit/jwt/test_jwt.py[0m:5: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mmock[39;49;00m[90m [39;49;00m[94mimport[39;49;00m patch[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'mock'[0m[0m
+[31m[1m_______________ ERROR collecting tests/unit/rest/test_client.py ________________[0m
+[31mImportError while importing test module '/Users/rs8607/Downloads/scripts/data/nsp_tasks/tc_3928/workspace/tests/unit/rest/test_client.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/opt/anaconda3/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+[1m[31mtests/unit/rest/test_client.py[0m:3: in <module>
+    [0m[94mimport[39;49;00m[90m [39;49;00m[04m[96maiounittest[39;49;00m[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'aiounittest'[0m[0m
+[31m[1m____________ ERROR collecting tests/unit/test_request_validator.py _____________[0m
+[31mImportError while importing test module '/Users/rs8607/Downloads/scripts/data/nsp_tasks/tc_3928/workspace/tests/unit/test_request_validator.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/opt/anaconda3/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+[1m[31mtests/unit/test_request_validator.py[0m:4: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mdjango[39;49;00m[04m[96m.[39;49;00m[04m[96mconf[39;49;00m[90m [39;49;00m[94mimport[39;49;00m settings[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'django'[0m[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m tests/cluster/test_cluster.py
+[31mERROR[0m tests/cluster/test_webhook.py
+[31mERROR[0m tests/unit/base/test_version.py
+[31mERROR[0m tests/unit/http/test_async_http_client.py
+[31mERROR[0m tests/unit/http/test_http_client.py
+[31mERROR[0m tests/unit/http/test_validation_client.py
+[31mERROR[0m tests/unit/jwt/test_jwt.py
+[31mERROR[0m tests/unit/rest/test_client.py
+[31mERROR[0m tests/unit/test_request_validator.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 9 errors during collection !!!!!!!!!!!!!!!!!!!!
+[31m============================== [31m[1m9 errors[0m[31m in 0.24s[0m[31m ===============================[0m

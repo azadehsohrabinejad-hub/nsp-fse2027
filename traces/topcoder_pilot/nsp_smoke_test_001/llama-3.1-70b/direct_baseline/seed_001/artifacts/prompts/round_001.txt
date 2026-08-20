@@ -1,0 +1,13 @@
+Task: Fix the add function in calculator.py to correctly add two numbers.
+
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Current state of the buggy file (src/calculator.py):
+```
+def add(a, b): 
+    # Bug: multiplies instead of adding 
+    return a * b 
+
+```
+
+Return ONLY the JSON with 'edits' to fix the issue.

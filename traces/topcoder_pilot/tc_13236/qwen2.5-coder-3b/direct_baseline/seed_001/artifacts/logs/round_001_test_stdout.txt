@@ -1,0 +1,1127 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.7, pytest-9.1.1, pluggy-1.6.0
+rootdir: D:\raz\razieh\data\nsp_tasks\tc_13236\workspace
+plugins: anyio-4.12.0, dash-3.3.0
+collected 9 items / 45 errors
+
+=================================== ERRORS ====================================
+______________ ERROR collecting tests/cli_tests/test_cli_opts.py ______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\cli_tests\test_cli_opts.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\cli_tests\test_cli_opts.py:1: in <module>
+    from mythril.interfaces.cli import main
+E   ModuleNotFoundError: No module named 'mythril'
+___________________ ERROR collecting tests/cmd_line_test.py ___________________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\cmd_line_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\cmd_line_test.py:3: in <module>
+    from mock import patch
+E   ModuleNotFoundError: No module named 'mock'
+_________________ ERROR collecting tests/disassembler_test.py _________________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\disassembler_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\disassembler_test.py:1: in <module>
+    from mythril.disassembler.disassembly import Disassembly
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+_________________ ERROR collecting tests/evmcontract_test.py __________________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\evmcontract_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\evmcontract_test.py:1: in <module>
+    from mythril.ethereum.evmcontract import EVMContract
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+____________________ ERROR collecting tests/graph_test.py _____________________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\graph_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\graph_test.py:4: in <module>
+    from mythril.mythril import MythrilAnalyzer, MythrilDisassembler
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+_______ ERROR collecting tests/instructions/berlin_fork_opcodes_test.py _______
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\instructions\berlin_fork_opcodes_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\instructions\berlin_fork_opcodes_test.py:4: in <module>
+    from mythril.disassembler.disassembly import Disassembly
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+____________ ERROR collecting tests/instructions/codecopy_test.py _____________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\instructions\codecopy_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\instructions\codecopy_test.py:1: in <module>
+    from mythril.disassembler.disassembly import Disassembly
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+_____________ ERROR collecting tests/instructions/create2_test.py _____________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\instructions\create2_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\instructions\create2_test.py:2: in <module>
+    from mythril.disassembler.disassembly import Disassembly
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+_____________ ERROR collecting tests/instructions/create_test.py ______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\instructions\create_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\instructions\create_test.py:3: in <module>
+    from mythril.disassembler.disassembly import Disassembly
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+___________ ERROR collecting tests/instructions/extcodecopy_test.py ___________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\instructions\extcodecopy_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\instructions\extcodecopy_test.py:1: in <module>
+    from mythril.laser.smt import symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+___________ ERROR collecting tests/instructions/extcodehash_test.py ___________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\instructions\extcodehash_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\instructions\extcodehash_test.py:1: in <module>
+    from mythril.disassembler.disassembly import Disassembly
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+_______________ ERROR collecting tests/instructions/sar_test.py _______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\instructions\sar_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\instructions\sar_test.py:3: in <module>
+    from mythril.disassembler.disassembly import Disassembly
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+_______________ ERROR collecting tests/instructions/shl_test.py _______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\instructions\shl_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\instructions\shl_test.py:3: in <module>
+    from mythril.disassembler.disassembly import Disassembly
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+_______________ ERROR collecting tests/instructions/shr_test.py _______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\instructions\shr_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\instructions\shr_test.py:3: in <module>
+    from mythril.disassembler.disassembly import Disassembly
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+___________ ERROR collecting tests/instructions/static_call_test.py ___________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\instructions\static_call_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\instructions\static_call_test.py:2: in <module>
+    from mock import patch
+E   ModuleNotFoundError: No module named 'mock'
+_____________ ERROR collecting tests/instructions/test_basefee.py _____________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\instructions\test_basefee.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\instructions\test_basefee.py:1: in <module>
+    from mythril.disassembler.disassembly import Disassembly
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+___________ ERROR collecting tests/laser/Precompiles/test_blake2.py ___________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\Precompiles\test_blake2.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\Precompiles\test_blake2.py:2: in <module>
+    from mythril.laser.ethereum.natives import blake2b_fcompress
+mythril\laser\ethereum\natives.py:5: in <module>
+    import blake2b
+E   ModuleNotFoundError: No module named 'blake2b'
+___________ ERROR collecting tests/laser/Precompiles/test_ec_add.py ___________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\Precompiles\test_ec_add.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\Precompiles\test_ec_add.py:1: in <module>
+    from mock import patch
+E   ModuleNotFoundError: No module named 'mock'
+_________ ERROR collecting tests/laser/Precompiles/test_ecrecover.py __________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\Precompiles\test_ecrecover.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\Precompiles\test_ecrecover.py:3: in <module>
+    from mock import patch
+E   ModuleNotFoundError: No module named 'mock'
+______ ERROR collecting tests/laser/Precompiles/test_elliptic_curves.py _______
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\Precompiles\test_elliptic_curves.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\Precompiles\test_elliptic_curves.py:1: in <module>
+    from mock import patch
+E   ModuleNotFoundError: No module named 'mock'
+________ ERROR collecting tests/laser/Precompiles/test_elliptic_mul.py ________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\Precompiles\test_elliptic_mul.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\Precompiles\test_elliptic_mul.py:1: in <module>
+    from mock import patch
+E   ModuleNotFoundError: No module named 'mock'
+__________ ERROR collecting tests/laser/Precompiles/test_identity.py __________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\Precompiles\test_identity.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\Precompiles\test_identity.py:3: in <module>
+    from mock import patch
+E   ModuleNotFoundError: No module named 'mock'
+__________ ERROR collecting tests/laser/Precompiles/test_mod_exp.py ___________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\Precompiles\test_mod_exp.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\Precompiles\test_mod_exp.py:2: in <module>
+    from eth_utils import decode_hex, big_endian_to_int
+E   ModuleNotFoundError: No module named 'eth_utils'
+___________ ERROR collecting tests/laser/Precompiles/test_ripemd.py ___________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\Precompiles\test_ripemd.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\Precompiles\test_ripemd.py:3: in <module>
+    from mock import patch
+E   ModuleNotFoundError: No module named 'mock'
+___________ ERROR collecting tests/laser/Precompiles/test_sha256.py ___________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\Precompiles\test_sha256.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\Precompiles\test_sha256.py:3: in <module>
+    from mock import patch
+E   ModuleNotFoundError: No module named 'mock'
+___________ ERROR collecting tests/laser/evm_testsuite/evm_test.py ____________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\evm_testsuite\evm_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\evm_testsuite\evm_test.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+_________ ERROR collecting tests/laser/smt/independece_solver_test.py _________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\smt\independece_solver_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\smt\independece_solver_test.py:1: in <module>
+    from mythril.laser.smt.solver.independence_solver import (
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+_______________ ERROR collecting tests/laser/smt/model_test.py ________________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\smt\model_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\smt\model_test.py:1: in <module>
+    from mythril.laser.smt import Solver, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+_____________ ERROR collecting tests/laser/state/calldata_test.py _____________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\state\calldata_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\state\calldata_test.py:2: in <module>
+    from mythril.laser.ethereum.state.calldata import ConcreteCalldata, SymbolicCalldata
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+______________ ERROR collecting tests/laser/state/mstack_test.py ______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\state\mstack_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\state\mstack_test.py:3: in <module>
+    from mythril.laser.ethereum.state.machine_state import MachineStack
+mythril\laser\ethereum\state\machine_state.py:6: in <module>
+    from mythril.laser.smt import BitVec, Bool, If, Expression, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+______________ ERROR collecting tests/laser/state/mstate_test.py ______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\state\mstate_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\state\mstate_test.py:2: in <module>
+    from eth._utils.numeric import ceil32
+E   ModuleNotFoundError: No module named 'eth'
+_____________ ERROR collecting tests/laser/state/storage_test.py ______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\state\storage_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\state\storage_test.py:2: in <module>
+    from mythril.laser.smt import symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+__ ERROR collecting tests/laser/state/world_state_account_exist_load_test.py __
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\state\world_state_account_exist_load_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\state\world_state_account_exist_load_test.py:3: in <module>
+    from mythril.disassembler.disassembly import Disassembly
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+__________ ERROR collecting tests/laser/strategy/test_loop_bound.py ___________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\strategy\test_loop_bound.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\strategy\test_loop_bound.py:2: in <module>
+    from mythril.laser.ethereum.strategy.extensions.bounded_loops import (
+mythril\laser\ethereum\strategy\__init__.py:3: in <module>
+    from mythril.laser.ethereum.state.global_state import GlobalState
+mythril\laser\ethereum\state\global_state.py:5: in <module>
+    from z3 import BitVec
+E   ModuleNotFoundError: No module named 'z3'
+______________ ERROR collecting tests/laser/test_transaction.py _______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\test_transaction.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\test_transaction.py:1: in <module>
+    from mythril.disassembler.disassembly import Disassembly
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+_____ ERROR collecting tests/laser/transaction/create_transaction_test.py _____
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\transaction\create_transaction_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\transaction\create_transaction_test.py:1: in <module>
+    from mythril.mythril import MythrilDisassembler
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+__________ ERROR collecting tests/laser/transaction/symbolic_test.py __________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\laser\transaction\symbolic_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\laser\transaction\symbolic_test.py:1: in <module>
+    from mythril.laser.ethereum.transaction.symbolic import (
+mythril\laser\ethereum\transaction\__init__.py:1: in <module>
+    from mythril.laser.ethereum.transaction.transaction_models import *
+mythril\laser\ethereum\transaction\transaction_models.py:5: in <module>
+    from z3 import ExprRef
+E   ModuleNotFoundError: No module named 'z3'
+___________ ERROR collecting tests/mythril/mythril_analyzer_test.py ___________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\mythril\mythril_analyzer_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\mythril\mythril_analyzer_test.py:2: in <module>
+    from mythril.mythril import MythrilDisassembler, MythrilAnalyzer
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+____________ ERROR collecting tests/mythril/mythril_config_test.py ____________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\mythril\mythril_config_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\mythril\mythril_config_test.py:7: in <module>
+    from mythril.mythril import MythrilConfig
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+_________ ERROR collecting tests/mythril/mythril_disassembler_test.py _________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\mythril\mythril_disassembler_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\mythril\mythril_disassembler_test.py:2: in <module>
+    from mythril.mythril import MythrilConfig, MythrilDisassembler
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+_______________ ERROR collecting tests/plugin/interface_test.py _______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\plugin\interface_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\plugin\interface_test.py:1: in <module>
+    from mythril.plugin.interface import MythrilCLIPlugin, MythrilPlugin
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+________________ ERROR collecting tests/plugin/loader_test.py _________________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\plugin\loader_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\plugin\loader_test.py:1: in <module>
+    from mythril.plugin import MythrilPluginLoader, MythrilPlugin
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+_____________________ ERROR collecting tests/rpc_test.py ______________________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\rpc_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\rpc_test.py:4: in <module>
+    from mythril.ethereum.interface.rpc.client import EthJsonRpc
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+______________ ERROR collecting tests/solidity_contract_test.py _______________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\solidity_contract_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\solidity_contract_test.py:3: in <module>
+    from mythril.mythril import MythrilDisassembler
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+__________________ ERROR collecting tests/statespace_test.py __________________
+ImportError while importing test module 'D:\raz\razieh\data\nsp_tasks\tc_13236\workspace\tests\statespace_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Azadeh\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\statespace_test.py:1: in <module>
+    from mythril.mythril import MythrilAnalyzer, MythrilDisassembler
+mythril\__init__.py:8: in <module>
+    from mythril.plugin.loader import MythrilPluginLoader
+mythril\plugin\__init__.py:1: in <module>
+    from mythril.plugin.interface import MythrilPlugin, MythrilCLIPlugin
+mythril\plugin\interface.py:2: in <module>
+    from mythril.laser.plugin.builder import PluginBuilder as LaserPluginBuilder
+mythril\laser\plugin\builder.py:1: in <module>
+    from mythril.laser.plugin.interface import LaserPlugin
+mythril\laser\plugin\interface.py:1: in <module>
+    from mythril.laser.ethereum.svm import LaserEVM
+mythril\laser\ethereum\svm.py:9: in <module>
+    from mythril.analysis.potential_issues import check_potential_issues
+mythril\analysis\potential_issues.py:1: in <module>
+    from mythril.analysis.report import Issue
+mythril\analysis\report.py:10: in <module>
+    from mythril.solidity.soliditycontract import SolidityContract
+mythril\solidity\soliditycontract.py:6: in <module>
+    import mythril.laser.ethereum.util as helper
+mythril\laser\ethereum\util.py:9: in <module>
+    from mythril.laser.smt import BitVec, Bool, Expression, If, simplify, symbol_factory
+mythril\laser\smt\__init__.py:1: in <module>
+    from mythril.laser.smt.bitvec import BitVec
+mythril\laser\smt\bitvec.py:6: in <module>
+    import z3
+E   ModuleNotFoundError: No module named 'z3'
+=========================== short test summary info ===========================
+ERROR tests/cli_tests/test_cli_opts.py
+ERROR tests/cmd_line_test.py
+ERROR tests/disassembler_test.py
+ERROR tests/evmcontract_test.py
+ERROR tests/graph_test.py
+ERROR tests/instructions/berlin_fork_opcodes_test.py
+ERROR tests/instructions/codecopy_test.py
+ERROR tests/instructions/create2_test.py
+ERROR tests/instructions/create_test.py
+ERROR tests/instructions/extcodecopy_test.py
+ERROR tests/instructions/extcodehash_test.py
+ERROR tests/instructions/sar_test.py
+ERROR tests/instructions/shl_test.py
+ERROR tests/instructions/shr_test.py
+ERROR tests/instructions/static_call_test.py
+ERROR tests/instructions/test_basefee.py
+ERROR tests/laser/Precompiles/test_blake2.py
+ERROR tests/laser/Precompiles/test_ec_add.py
+ERROR tests/laser/Precompiles/test_ecrecover.py
+ERROR tests/laser/Precompiles/test_elliptic_curves.py
+ERROR tests/laser/Precompiles/test_elliptic_mul.py
+ERROR tests/laser/Precompiles/test_identity.py
+ERROR tests/laser/Precompiles/test_mod_exp.py
+ERROR tests/laser/Precompiles/test_ripemd.py
+ERROR tests/laser/Precompiles/test_sha256.py
+ERROR tests/laser/evm_testsuite/evm_test.py
+ERROR tests/laser/smt/independece_solver_test.py
+ERROR tests/laser/smt/model_test.py
+ERROR tests/laser/state/calldata_test.py
+ERROR tests/laser/state/mstack_test.py
+ERROR tests/laser/state/mstate_test.py
+ERROR tests/laser/state/storage_test.py
+ERROR tests/laser/state/world_state_account_exist_load_test.py
+ERROR tests/laser/strategy/test_loop_bound.py
+ERROR tests/laser/test_transaction.py
+ERROR tests/laser/transaction/create_transaction_test.py
+ERROR tests/laser/transaction/symbolic_test.py
+ERROR tests/mythril/mythril_analyzer_test.py
+ERROR tests/mythril/mythril_config_test.py
+ERROR tests/mythril/mythril_disassembler_test.py
+ERROR tests/plugin/interface_test.py
+ERROR tests/plugin/loader_test.py
+ERROR tests/rpc_test.py
+ERROR tests/solidity_contract_test.py
+ERROR tests/statespace_test.py
+!!!!!!!!!!!!!!!!!! Interrupted: 45 errors during collection !!!!!!!!!!!!!!!!!!!
+============================= 45 errors in 1.91s ==============================

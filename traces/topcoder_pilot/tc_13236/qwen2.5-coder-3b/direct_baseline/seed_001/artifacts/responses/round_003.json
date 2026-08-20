@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct errors in the test setup or logic",
+  "edits": [
+    {
+      "file": "tests/test_mythril.py",
+      "old_string": "assert mythril.analyze(contract_code) == expected_result",
+      "new_string": "assert mythril.analyze(contract_code, **kwargs) == expected_result"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+category,metric,value,unit,source_file,verification_note
+dataset,topcoder_rows,22023,rows,analysis/output/challenges_summary.csv,Verified from checked-in summary CSV
+dataset,topcoder_rows_raw_export,22023,rows,data/raw/tasks.csv,Verified from checked-in raw export
+dataset,topcoder_rows_corpus_index,22023,rows,data/topcoder/corpus_index.jsonl,Verified by line count
+dataset,topcoder_rows_xlsx,22023,rows,Challenges.xlsx,Verified by loading workbook rows
+dataset,legacy_old_xlsx_rows,34685,rows,old_Challenges.xlsx,Legacy workbook not used as paper denominator
+dataset,raw_workers,402280,rows,data/raw/workers.csv,Verified from current raw artifact
+dataset,raw_interactions,425704,rows,data/raw/interactions.csv,Verified from current raw artifact
+dataset,executable_subset,3966,rows,data/topcoder/executable_subset.jsonl,Verified by line count
+dataset,duplicate_groups,2060,groups,data/topcoder/corpus_summary.json,Verified from corpus summary
+benchmark,validated_manifest_tasks,37,tasks,data/capability_clash/manifest.jsonl,Verified unique task count
+benchmark,reportable_matrix_tasks,30,tasks,reports/capability_clash/capability_clash_task_matrix.csv,Verified published matrix denominator
+benchmark,total_runs,480,runs,reports/capability_clash/capability_clash_results.csv,Verified row count
+benchmark,total_test_passing_runs,72,runs,reports/capability_clash/capability_clash_results.csv,Verified by summing final_pass
+benchmark,overall_pass_rate,0.15,rate,reports/capability_clash/capability_clash_results.csv,Verified by recomputation
+benchmark,gpt_4_1_mini_pass_rate,0.204167,rate,reports/capability_clash/capability_clash_results.csv,Verified by recomputation
+benchmark,gpt_4_1_nano_pass_rate,0.095833,rate,reports/capability_clash/capability_clash_results.csv,Verified by recomputation
+benchmark,model_gap,0.108333,rate,reports/capability_clash/capability_clash_results.csv,Mini minus nano overall pass rate
+benchmark,best_fixed_mini,0.233333,rate,reports/capability_clash/capability_clash_results.csv,contract_first
+benchmark,oracle_route_mini,0.333333,rate,reports/capability_clash/capability_clash_results.csv,Per-task upper bound
+benchmark,best_fixed_nano,0.166667,rate,reports/capability_clash/capability_clash_results.csv,pattern_skeleton
+benchmark,oracle_route_nano,0.2,rate,reports/capability_clash/capability_clash_results.csv,Per-task upper bound
+benchmark,max_strategy_spread,25.0,pp,reports/capability_clash/family_level_results.csv,compensating_dual_mutation
+benchmark,hardest_family_pass_rate,0.053571,rate,reports/capability_clash/family_level_results.csv,semantic_shadow_mutation
+audit,overall_disagreement_rate,0.15,rate,reports/capability_clash/semantic_audit_results.csv,Matches incomplete-fix rate
+audit,total_passing_runs,72,runs,reports/capability_clash/semantic_audit_results.csv,Verified by final_pass column
+audit,passes_flagged_incomplete,72,runs,reports/capability_clash/semantic_audit_results.csv,All passes flagged incomplete
+audit,overall_patch_completeness,0.0,score,reports/capability_clash/semantic_audit_results.csv,Mean patch completeness
+verifier,rule_precision,1.0,score,reports/capability_clash/verifier_results.csv,target_file_recall < 1.0 rule
+verifier,rule_recall,0.166667,score,reports/capability_clash/verifier_results.csv,target_file_recall < 1.0 rule
+verifier,rule_f1,0.285714,score,reports/capability_clash/verifier_results.csv,target_file_recall < 1.0 rule
+verifier,logistic_regression_f1,0.0,score,reports/capability_clash/verifier_results.csv,Negative result
+verifier,llm_judge_noref_precision,1.0,score,reports/ase2026_aegis/llm_judge_results.csv,gpt-4.1-mini no-reference — perfect precision
+verifier,llm_judge_noref_recall,0.444444,score,reports/ase2026_aegis/llm_judge_results.csv,32/72 incomplete patches correctly flagged
+verifier,llm_judge_noref_f1,0.615385,score,reports/ase2026_aegis/llm_judge_results.csv,115% improvement over rule-based F1=0.286
+verifier,llm_judge_false_loc_detection,0.875,score,reports/ase2026_aegis/llm_judge_results.csv,14/16 false_localization_trap detected (no-reference)
+verifier,llm_judge_shadow_detection,0.833333,score,reports/ase2026_aegis/llm_judge_results.csv,5/6 semantic_shadow_mutation detected (no-reference)
+verifier,llm_judge_incomplete_detection_noref,0.0,score,reports/ase2026_aegis/llm_judge_results.csv,0/12 incomplete_patch_trap detected (no-reference) — multi-criterion opacity
+verifier,llm_judge_gt_mini_f1,0.992754,score,reports/ase2026_aegis/llm_judge_gt_results.csv,gpt-4.1-mini + GT patch — 71/72 detected — crosses F1>=0.8 threshold
+verifier,llm_judge_gt_mini_recall,0.986111,score,reports/ase2026_aegis/llm_judge_gt_results.csv,71/72 — near-perfect recall
+verifier,llm_judge_gt_t3_f1,0.917431,score,reports/ase2026_aegis/llm_judge_t3_results.csv,gpt-4.1 + GT patch — 61/72 detected — also crosses threshold
+verifier,llm_judge_gt_t3_recall,0.847222,score,reports/ase2026_aegis/llm_judge_t3_results.csv,61/72 — mini+GT beats T3+GT (calibration > model scale)
+verifier,multi_criterion_opacity_runs,40,runs,reports/ase2026_aegis/llm_judge_results.csv,40 runs fool judge on ALL 5 criteria simultaneously
+verifier,gt_value_recall_gain,0.541667,score,computed,0.986-0.444=+0.542 recall points added by ground-truth reference
+controller_v2,heldout_tasks,7,tasks,reports/ase2026_aegis/controller_v2_leaderboard.csv,Offline held-out only
+controller_v2,best_candidate_utility,0.0923,utility,reports/ase2026_aegis/controller_v2_leaderboard.csv,candidate_f_oracle_distilled_reject_controller
+controller_v2,incumbent_utility,0.090861,utility,reports/ase2026_aegis/controller_v2_leaderboard.csv,incumbent_baseline
+controller_v2,utility_gain,0.001439,utility,reports/ase2026_aegis/controller_v2_leaderboard.csv,Too small for flagship claim
+ecosystem_rl,random_win_rate,0.81,rate,reports/tables/rl_metrics.csv,Verified from rl_train.py on 22023 real TopCoder tasks (tasks.parquet)
+ecosystem_rl,random_avg_reward,69413.0,prize_usd,reports/tables/rl_metrics.csv,Verified from rl_train.py
+ecosystem_rl,random_starved,24.1,tasks_per_episode,reports/tables/rl_metrics.csv,Verified from rl_train.py
+ecosystem_rl,skill_match_win_rate,0.843,rate,reports/tables/rl_metrics.csv,Verified from rl_train.py
+ecosystem_rl,bandit_win_rate,0.91,rate,reports/tables/rl_metrics.csv,Verified from rl_train.py
+ecosystem_rl,dqn_win_rate,0.9513,rate,reports/tables/rl_metrics.csv,Verified from rl_train.py — 95.13% matches paper claim exactly
+ecosystem_rl,dqn_avg_reward,108902.0,prize_usd,reports/tables/rl_metrics.csv,Verified — 108.9K matches paper claim exactly
+ecosystem_rl,dqn_starved,5.14,tasks_per_episode,reports/tables/rl_metrics.csv,Verified — 5.14% matches paper claim exactly
+supervised,multimodal_starved_f1,0.9823,score,reports/tables/supervised_metrics_multimodal.csv,log_reg test split — rounds to 0.982 in paper
+supervised,text_time_starved_f1,0.9100,score,reports/tables/supervised_metrics_text_time.csv,log_reg test split — baseline for +0.072 claim
+supervised,multimodal_gain_starved,0.0723,score,computed,0.9823 - 0.9100 = +0.072 as claimed in paper
+finetuning,ft_pass_rate,0.1333,rate,reports/ase2026_aegis/finetuned_eval_results.csv,4/30 — verified
+classifier,family_classifier_accuracy,0.3667,rate,reports/ase2026_aegis/family_classifier_results.csv,11/30 — verified
+classifier,avg_tokens_per_call,958.0,tokens,reports/ase2026_aegis/family_classifier_results.csv,Proves real API calls not mock
+capability,topcoder_preflight_tasks_detected,4,tasks,reports/decomposition/real_world/real_repo/preflight_report.json,Fresh session check
+capability,dev_mock_smoke_tasks,1,tasks,reports/decomposition/development/real_repo/strategy_comparison.csv,Fresh session check
+expansion,ccbench_expanded_tasks,37,tasks,reports/capability_clash/capability_clash_results_37task.csv,7 new tasks added to original 30
+expansion,ccbench_expanded_runs,592,runs,reports/capability_clash/capability_clash_results_37task.csv,37 tasks × 8 strategies × 2 tiers
+expansion,ccbench_expanded_pass_rate,0.1216,rate,reports/capability_clash/capability_clash_results_37task.csv,72/592 — all passes from original 30 tasks
+expansion,ccbench_new_task_passes,0,runs,reports/capability_clash/capability_clash_results_37task.csv,0/112 new tasks pass — confirms mutation families generalize
+expansion,ccbench_expanded_t2_pass_rate,0.1655,rate,reports/capability_clash/capability_clash_results_37task.csv,49/296 — gpt-4.1-mini on 37 tasks
+expansion,ccbench_expanded_t1_pass_rate,0.0777,rate,reports/capability_clash/capability_clash_results_37task.csv,23/296 — gpt-4.1-nano on 37 tasks

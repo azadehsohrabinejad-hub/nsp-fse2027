@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct syntax errors in the code",
+  "edits": [
+    {
+      "file": "path/to/your/file.py",
+      "old_string": "<p>Welcome to the SunShot - RE-volv Reinvestment Improvement Challenge Part 1!</p>\n\n<p dir=\"ltr\">RE-volv is a solar energy crowdfunding platform. &nbsp;The platform allows individuals to donate to sol...",
+      "new_string": "<p>Welcome to the SunShot - RE-volv Reinvestment Improvement Challenge Part 1!</p><p dir=\"ltr\">RE-volv is a solar energy crowdfunding platform. &nbsp;The platform allows individuals to donate to sol..."
+    }
+  ]
+}

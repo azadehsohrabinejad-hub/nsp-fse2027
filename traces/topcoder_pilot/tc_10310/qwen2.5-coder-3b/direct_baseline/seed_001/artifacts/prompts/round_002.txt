@@ -1,0 +1,7 @@
+Task: <p dir="ltr">RE-volv is a solar energy crowdsourcing platform. &nbsp;The platform allows individuals to donate to solar energy projects. &nbsp;RE-volv then re-invests the money the projects&#39; saved...
+
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.

@@ -1,7 +1,8 @@
 Task: <p>
 	To get started with DocuSign REST API you need to go get a free developer account on DocuSign DevCenter (<a href="http://www.docusign.com/devcenter" target="_blank">www.docusign.com/devcenter</a>...
-Fix the file: 
-Current buggy code:
-```
 
-```
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.

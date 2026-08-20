@@ -2,8 +2,9 @@ Task: <p><span style="font-family:arial,helvetica,sans-serif"><span style="backg
 
 <p>&nbsp;
 <p dir="ltr"><spa...
-Fix the file: 
-Current buggy code:
-```
 
-```
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.

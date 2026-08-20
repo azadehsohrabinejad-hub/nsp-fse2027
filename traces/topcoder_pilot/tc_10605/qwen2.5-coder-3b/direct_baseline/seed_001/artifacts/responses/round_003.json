@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct the error in the code",
+  "edits": [
+    {
+      "file": "relative/path/to/file.py",
+      "old_string": "the exact existing code block that needs fixing",
+      "new_string": "the corrected code block"
+    }
+  ]
+}

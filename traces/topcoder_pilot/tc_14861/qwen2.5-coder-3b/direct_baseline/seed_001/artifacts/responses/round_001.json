@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and correct the issue causing tests to fail without printing an error message",
+  "edits": [
+    {
+      "file": "relative/path/to/file.py",
+      "old_string": "the exact existing code block that needs fixing",
+      "new_string": "the corrected code block"
+    }
+  ]
+}

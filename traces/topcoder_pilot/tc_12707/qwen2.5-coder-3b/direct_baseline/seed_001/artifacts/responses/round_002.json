@@ -1,0 +1,10 @@
+{
+  "plan": "Identify and fix the test failures",
+  "edits": [
+    {
+      "file": "tests/test_firmware.py",
+      "old_string": "assert firmware == expected_output",
+      "new_string": "self.assertEqual(firmware, expected_output)"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Task: In the <a href="https://blockchain.topcoder.com/challenges/30062676">previous challenge</a> we have created a Visual Studio Code Extension that performs security analysis on a Solidity source code fil...
+
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.

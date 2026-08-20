@@ -1,0 +1,10 @@
+{
+  "plan": "Fix the add function to correctly add two numbers instead of multiplying them.",
+  "edits": [
+    {
+      "file": "src/calculator.py",
+      "old_string": "return a * b",
+      "new_string": "return a + b"
+    }
+  ]
+}

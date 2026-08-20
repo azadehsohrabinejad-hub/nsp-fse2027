@@ -1,0 +1,7 @@
+Task: <p><span style="background-color:transparent; color:rgb(0, 0, 0); font-family:calibri; font-size:12pt"><em>NOTE - This is a repost of an earlier challenge with reduced scope. The challenge will be jud...
+
+The tests are currently failing, but no explicit error was printed to stderr.
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.

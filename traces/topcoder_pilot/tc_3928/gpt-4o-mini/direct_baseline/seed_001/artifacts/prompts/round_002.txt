@@ -1,0 +1,16 @@
+Task: <p>
+	To get started with DocuSign REST API you need to go get a free developer account on DocuSign DevCenter (<a href="http://www.docusign.com/devcenter" target="_blank">www.docusign.com/devcenter</a>...
+
+Previous Test Failed with the following error:
+```
+/opt/anaconda3/bin/pytest:11: DeprecationWarning: Parsing dates involving a day of month without a year specified is ambiguious
+and fails to parse leap day. The default behavior will change in Python 3.15
+to either always raise an exception or to use a different default year (TBD).
+To avoid trouble, add a specific year to the input & format.
+See https://github.com/python/cpython/issues/70647.
+  sys.exit(console_main())
+```
+
+Please identify the file that needs fixing, read it, and provide the edits to fix the issue.
+
+Return ONLY the JSON with 'edits' to fix the issue.
