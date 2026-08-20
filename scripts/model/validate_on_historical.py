@@ -38,10 +38,11 @@ def main():
     A, C, _ = run_classical_em(data_dir, epochs=30)
     
     # 3. Setup Kalman Filter
-    model = NSPModel(state_dim=2, obs_dim=21)
+    model = NSPModel(state_dim=4, obs_dim=21)
     model.A.data = A.float()
     model.C.data = C.float()
-    model.log_Q.data = torch.log(torch.tensor([0.01, 0.01], dtype=torch.float32))
+    # 4 dimensions for Q noise
+    model.log_Q.data = torch.log(torch.tensor([0.01, 0.01, 0.01, 0.01], dtype=torch.float32))
     model.log_R.data = torch.log(torch.tensor([0.1] * 21, dtype=torch.float32))
     nsp_filter = NSPFilter(model)
     

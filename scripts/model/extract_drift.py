@@ -44,7 +44,7 @@ def main():
     print("\nInferring hidden states (z_t) for each trajectory...")
     
     # Create a model instance with learned parameters
-    model = NSPModel(state_dim=2, obs_dim=21)
+    model = NSPModel(state_dim=4, obs_dim=21)
     # IMPORTANT: Cast EM outputs (float64) to float32 to match the Kalman Filter
     model.A.data = A.float()
     model.C.data = C.float()
